@@ -250,13 +250,13 @@ table.sched th, table.sched td {
         <span class="affil">Mots d'Ouverture et Discours Officiels<br>Mots des partenaires</span>
       </td>
       <td class="c-d2">
-        <span class="tag" style="color:var(--d2);">Invited Talk</span>
+        <span class="tag" style="color:var(--d2);">Invited Talk · 9H00–10H30</span>
         <span class="speaker">Prof. Mohamed CHETOUANI</span>
         <span class="affil">Sorbonne Université (SU), France</span>
       </td>
       <td class="c-empty"></td>
       <td class="c-d3">
-        <span class="tag" style="color:var(--d3);">Invited Talk</span>
+        <span class="tag" style="color:var(--d3);">Invited Talk · 9H00–10H30</span>
         <span class="speaker">Prof. Kamel SMAILI</span>
         <span class="affil">Université de Lorraine (UL), France</span>
       </td>
@@ -272,28 +272,46 @@ table.sched th, table.sched td {
       </td>
     </tr>
 
-    <tr>
-      <td class="time-cell">10:30<br>11:00</td>
-      <td class="c-sponsor">
-        <span class="tag" style="color:var(--gold);">Sponsor Platinum</span>
-        <span class="speaker">Platinum Sponsor show stand 10:30 – 11:00</span>
-      </td>
-      <td colspan="5" class="c-sponsor">
-        <span class="tag" style="color:var(--gold);">Sponsor Platinum</span>
-        <span class="speaker">Platinium Sponsor show stand &amp; Participants Presentations (POSTERS)</span>
-      </td>
-    </tr>
+   <tr>
+  <td class="time-cell">10:30<br>11:00</td>
 
-    <tr>
-      <td class="time-cell"></td>
-      <td class="c-coffee">☕ Pause Café</td>
-      <td class="c-coffee">☕ Pause Café</td>
-      <td class="c-empty"></td>
-      <td class="c-empty"></td>
-      <td class="c-coffee">☕ Pause Café</td>
-      <td class="c-coffee">☕ Pause Cafék</td>
-    </tr>
+  <td class="c-sponsor">
+    ☕ Pause Café<br>
+    <span class="speaker">
+      Platinum Sponsor Show Stand &amp; Participants Presentations (POSTERS)
+    </span>
+  </td>
 
+  <td class="c-sponsor">
+    ☕ Pause Café<br>
+    <span class="speaker">
+      Platinum Sponsor Show Stand &amp; Participants Presentations (POSTERS)
+    </span>
+  </td>
+
+  <td class="c-sponsor">
+  
+  </td>
+
+  <td class="c-sponsor">
+    ☕ Pause Café<br>
+    <span class="speaker">
+      Platinum Sponsor Show Stand &amp; Participants Presentations (POSTERS)
+    </span>
+  </td>
+    <td class="c-sponsor">
+    ☕ Pause Café<br>
+    <span class="speaker">
+      Platinum Sponsor Show Stand &amp; Participants Presentations (POSTERS)
+    </span>
+  </td>
+    <td class="c-sponsor">
+    ☕ Pause Café<br>
+    <span class="speaker">
+      Platinum Sponsor Show Stand &amp; Participants Presentations (POSTERS)
+    </span>
+  </td>
+</tr>
     <tr>
       <td class="time-cell">11:00<br>12:00</td>
       <td class="c-sponsor">
@@ -301,7 +319,7 @@ table.sched th, table.sched td {
         <span class="affil">11H00 – 12:00</span>
       </td>
       <td class="c-d2">
-        <span class="tag" style="color:var(--d2);">Invited Talk</span>
+        <span class="tag" style="color:var(--d2);">Invited Talk · 11H00–12H00</span>
         <span class="speaker">Prof. El Habib BEN LAHMER</span>
         <span class="affil">UHII</span>
       </td>
@@ -311,12 +329,12 @@ table.sched th, table.sched td {
         <span class="affil" style="color:#7C3AED;">11H00 – 18H00</span>
       </td>
       <td class="c-d3">
-        <span class="tag" style="color:var(--d3);">Invited Talk</span>
+        <span class="tag" style="color:var(--d3);">Invited Talk · 11H00–12H00</span>
         <span class="speaker">Prof. Mohamed BENDAHAN</span>
         <span class="affil">FLSH / UM5R</span>
       </td>
       <td class="c-d4">
-        <span class="tag" style="color:var(--d4);">Invited Talk</span>
+        <span class="tag" style="color:var(--d4);">Invited Talk · 11H00–12H00</span>
         <span class="speaker">Prof. Ouassim KARRAKCHOU</span>
         <span class="affil">UIR, Rabat</span>
       </td>
@@ -335,17 +353,17 @@ table.sched th, table.sched td {
         <span class="affil">Sorbonne Université (SU), France</span>
       </td>
       <td class="c-d2">
-        <span class="tag" style="color:var(--d2);">Invited Talk</span>
+        <span class="tag" style="color:var(--d2);">Invited Talk · 12H00–13H00</span>
         <span class="speaker">Prof. Anass NOURI</span>
         <span class="affil">FSK, UIT, Maroc</span>
       </td>
       <td class="c-d3">
-        <span class="tag" style="color:var(--d3);">Invited Talk</span>
+        <span class="tag" style="color:var(--d3);">Invited Talk · 12H00–13H00</span>
         <span class="speaker">Prof. Dounia LOTFI</span>
         <span class="affil">FSR / UM5R</span>
       </td>
       <td class="c-d4">
-        <span class="tag" style="color:var(--d4);">Invited Talk</span>
+        <span class="tag" style="color:var(--d4);">Invited Talk · 12H00–13H00</span>
         <span class="speaker">Prof. Houda BENBRAHIM</span>
         <span class="affil">ENSIAS / UM5R</span>
       </td>
@@ -396,22 +414,23 @@ table.sched th, table.sched td {
     <tr>
       <td class="time-cell">14:00<br>15:00</td>
       <td class="c-d1">
-        <span class="tag" style="color:var(--d1);">Invited Talk</span>
+
+        <span class="tag" style="color:var(--d1);">Invited Talk · 14H00–15H00</span>
         <span class="speaker">Prof. Mohamed ESSAAIDI</span>
         <span class="affil">IEEE | ENSIAS / UM5R</span>
       </td>
       <td class="c-d2">
-        <span class="tag" style="color:var(--d2);">Invited Talk</span>
+        <span class="tag" style="color:var(--d2);">Invited Talk · 14H00–15H00</span>
         <span class="speaker">Prof. Mohammed KHALIL</span>
         <span class="affil">FSTM, UH2C, Maroc</span>
       </td>
       <td class="c-d3">
-        <span class="tag" style="color:var(--d3);">Invited Talk &amp; Démo</span>
+        <span class="tag" style="color:var(--d3);">Invited Talk &amp; Démo · 14H00–15H00</span>
         <span class="speaker" style="font-size:10.5px;">Prof. Soufiane AZOUAGHE &amp; Mekki EL AMIRI</span>
         <span class="affil">FLSH / UM5R</span>
       </td>
       <td class="c-d4">
-        <span class="tag" style="color:var(--d4);">Invited Talk</span>
+        <span class="tag" style="color:var(--d4);">Invited Talk · 14H00–15H00</span>
         <span class="speaker">Prof. Hakim HAFIDI</span>
         <span class="affil">UIR, Rabat</span>
       </td>
@@ -423,22 +442,23 @@ table.sched th, table.sched td {
     <tr>
       <td class="time-cell">15:00<br>16:00</td>
       <td class="c-roundtable">
-        <span class="tag" style="color:#0891B2;">Table Ronde</span>
+        <span class="tag" style="color:#0891B2;">Table Ronde · 15H00–16H00 </span>
+
         <span class="speaker" style="font-size:10.5px;">Prof. Y. GAHI · Prof. M. BOUTAYEB · Prof. A. DRISSI EL MALIANI</span>
         <span class="affil">UIT / Université de Lorraine / UM5R</span>
       </td>
       <td class="c-d2">
-        <span class="tag" style="color:var(--d2);">Invited Talk</span>
+        <span class="tag" style="color:var(--d2);">Invited Talk · 15H00–16H00</span>
         <span class="speaker">Prof. Boutaina HDIOUD</span>
         <span class="affil">ENSIAS / UM5R</span>
       </td>
       <td class="c-d3">
-        <span class="tag" style="color:var(--d3);">Invited Talk</span>
+        <span class="tag" style="color:var(--d3);">Invited Talk · 15H00–16H00</span>
         <span class="speaker">Prof. Ibrahim RAHHAL</span>
         <span class="affil">UIR, Rabat</span>
       </td>
       <td class="c-handson">
-        <span class="tag" style="color:#D97706;">Hands-on</span>
+        <span class="tag" style="color:#D97706;">Hands-on · 15H00–16H00</span>
         <span class="speaker">Prof. Aniss MOUMEN</span>
         <span class="affil">ENSAK / UIT</span>
       </td>
@@ -449,25 +469,49 @@ table.sched th, table.sched td {
       </td>
     </tr>
 
-    <tr>
-      <td class="time-cell">16:00<br>16:30</td>
-      <td class="c-coffee">☕ Pause Café</td>
-      <td class="c-coffee">☕ Pause Café</td>
-      <td class="c-coffee">☕ Pause Café</td>
-      <td class="c-coffee">☕ Pause Café</td>
-      </tr>
+<tr>
+  <td class="time-cell">16:00<br>16:30</td>
+
+  <td class="c-sponsor">
+    ☕ Pause Café<br>
+    <span class="speaker">
+      Platinum Sponsor Show Stand &amp; Participants Presentations (POSTERS)
+    </span>
+  </td>
+
+  <td class="c-sponsor">
+    ☕ Pause Café<br>
+    <span class="speaker">
+      Platinum Sponsor Show Stand &amp; Participants Presentations (POSTERS)
+    </span>
+  </td>
+
+  <td class="c-sponsor">
+    ☕ Pause Café<br>
+    <span class="speaker">
+      Platinum Sponsor Show Stand &amp; Participants Presentations (POSTERS)
+    </span>
+  </td>
+
+  <td class="c-sponsor">
+    ☕ Pause Café<br>
+    <span class="speaker">
+      Platinum Sponsor Show Stand &amp; Participants Presentations (POSTERS)
+    </span>
+  </td>
+</tr>
 
     <tr style="height:120px;">
       <td class="time-cell">16:30<br>18:00</td>
       
       <td class="c-handson">
-        <span class="tag" style="color:#D97706;">Hands-on</span>
+        <span class="tag" style="color:#D97706;">Hands-on · 16H30–18H00</span>
         <span class="speaker">Dr. Mohamed IMAM</span>
         <span class="affil">ENSIAS/UM5R &amp; Université de Waterloo</span>
       </td>
       
       <td class="c-handson">
-        <span class="tag" style="color:#D97706;">Hands-on session</span>
+        <span class="tag" style="color:#D97706;">Hands-on session · 16H30–18H00</span>
         <span class="speaker">Prof. Jihane GHARIB</span>
         <span class="affil">ENSAK / UIT</span>
       </td>
@@ -475,29 +519,38 @@ table.sched th, table.sched td {
       <td class="c-empty"></td>
       
       <td class="c-handson" style="vertical-align:middle; text-align:center;">
-        <span class="tag" style="color:#D97706;">HANDS-ON SESSION</span>
+        <span class="tag" style="color:#D97706;">HANDS-ON SESSION · 16H30–18H00</span>
         <span class="speaker" style="font-size:12px; font-weight:700; line-height:1.4;">Dr. Ayoub FARKANE</span>
         <span class="affil">Université de Lorraine, France<br>UIR, Morocco</span>
       </td>
       
       <td class="c-aws" style="vertical-align:middle; text-align:center;">
-        <span class="tag" style="color:#EA580C;">INVITED TALK &amp; HANDS-ON AWS</span>
+        <span class="tag" style="color:#EA580C;">INVITED TALK &amp; HANDS-ON AWS </span>
         <span class="speaker" style="font-size:12px; font-weight:700; line-height:1.5;">Ms. Tiffany SOUTERRE<br>Mr. Olivier LEPLUS</span>
         <span class="affil">AWS Paris, France</span>
         <div style="margin-top:10px;font-weight:600;">16:30 - 18:30</div>
       </td>
       
       </tr>
+     
 
     <tr style="height:36px;">
       <td class="time-cell">18:30</td>
       <td class="c-empty" style="font-size:9.5px; color:var(--ink-soft);">Fin de journée</td>
       <td class="c-empty" style="font-size:9.5px; color:var(--ink-soft);">Fin de journée</td>
      <td class="c-empty" style="font-size:9.5px; color:var(--ink-soft);"></td>
-     <td class="c-empty" style="font-size:9.5px; color:var(--ink-soft);">Fin de journée</td>
+     <td class="c-empty" style="font-size:9.5px; color:var(--ink-soft);"></td>
       <td class="c-empty" style="font-size:9.5px; color:var(--ink-soft);">Fin de journée</td>
       <td class="c-empty"></td>
     </tr>
+    <tr style="height: 80px;">
+      <td style="border: none; background: transparent;"></td>
+      
+      <td style="border: none; background: transparent;"></td> <td style="border: none; background: transparent;"></td> <td style="border: none; background: transparent;"></td> <td class="c-sponsor" style="vertical-align: middle; text-align: center; background: #FFFBEB; border-left: 3px solid #B8860B !important; border-radius: 0 0 8px 8px; box-shadow: 0 4px 12px rgba(184,134,11,0.08);">
+        
+        <span class="speaker" style="font-size: 13px; font-weight: 700; color: #1C1917; margin-top: 2px;">🍽 DINER DE GALA</span>
+        
+      </td>
 
   </tbody>
 </table>
