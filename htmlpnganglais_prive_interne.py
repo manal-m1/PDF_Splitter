@@ -1,5 +1,6 @@
 from playwright.sync_api import sync_playwright
 
+
 html_content = """
 <!DOCTYPE html>
 <html lang="en">
@@ -62,13 +63,23 @@ body {
   font-size: 44px; font-weight: 700; line-height: 1;
   color: var(--ink); letter-spacing: -1px;
 }
-.conf-sub { font-size: 13px; color: var(--ink-soft); margin-top: 6px; font-weight: 300; }
+
+.date-sub { font-size: 12px; color: var(--ink-soft); text-align: right; font-weight: 300; margin-top: 4px; }
+.conf-sub {
+  font-size: 14px; /* 13 → 14 */
+  color: var(--ink-soft);
+  margin-top: 6px;
+  font-weight: 300;
+}
+
 .big-dates {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 60px; font-weight: 700; color: var(--ink);
-  line-height: 1; letter-spacing: -3px;
+  font-size: 66px; /* 60 → 66 */
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1;
+  letter-spacing: -3px;
 }
-.date-sub { font-size: 12px; color: var(--ink-soft); text-align: right; font-weight: 300; margin-top: 4px; }
 
 .sched-wrap {
   border: 1px solid var(--line);
@@ -180,53 +191,67 @@ table.sched th, table.sched td {
 <table class="sched">
   <colgroup>
   <col style="width:68px">
-  <col style="width:16.5%">
-  <col style="width:16.5%">
-  <col style="width:10%">
-  <col style="width:16.5%">
-  <col style="width:16.5%">
-  <col style="width:16.5%">
+  <col style="width:16.66%">
+  <col style="width:16.66%">
+  <col style="width:16.66%">
+  <col style="width:16.66%">
+  <col style="width:16.66%">
+  <col style="width:16.66%">
 </colgroup>
   <thead>
-    <tr>
+   <tr>
       <th style="background:var(--ink);"></th>
       <th class="thead-day d1h">
         <div style="font-family:'Cormorant Garamond',serif;font-size:22px;opacity:.4;">01</div>
-        Monday 6 July
-        <div style="font-size:9px;opacity:.6;font-weight:300;">1st day</div>
+        <div style="font-size:21px;font-weight:600;">
+        Monday 6 July 2026</div>
+        <div style="font-size:17px;opacity:.6;font-weight:300;">1st day</div>
         <div class="venue-badge">ENSIAS</div>
       </th>
       <th class="thead-day d2h">
         <div style="font-family:'Cormorant Garamond',serif;font-size:22px;opacity:.4;">02</div>
-        Tuesday 7 July
-        <div style="font-size:9px;opacity:.6;font-weight:300;">2nd day</div>
+        <div style="font-size:21px;font-weight:600;">
+        Tuesday 7 July 2026</div>
+        <div style="font-size:17px;opacity:.6;font-weight:300;">2nd day</div>
         <div class="venue-badge">UIR</div>
       </th>
       
-      <th class="thead-day d3h">
-        <div style="font-family:'Cormorant Garamond',serif;font-size:22px;opacity:.4;">03</div>
-        Wednesday 8 July
-        <div style="font-size:9px;opacity:.6;font-weight:300;">3rd day</div>
-        <div class="venue-badge">FLSHR</div>
-      </th>
+     <th class="thead-day d3h" style="background-color:#9B3E1A; color:white;">
+    <div style="font-family:'Cormorant Garamond',serif;font-size:22px;opacity:.4;">03</div>
+
+    <div style="font-size:21px;font-weight:600;">
+        Wednesday 8 July 2026
+    </div>
+
+    <div style="font-size:17px;opacity:.6;font-weight:300;">
+        3rd day
+    </div>
+
+    <div class="venue-badge">FLSHR</div>
+</th>
       <th class="thead-day d4h">
         <div style="font-family:'Cormorant Garamond',serif;font-size:22px;opacity:.4;">04</div>
-        Thursday 9 July
-        <div style="font-size:9px;opacity:.6;font-weight:300;">4th day</div>
+        <div style="font-size:21px;font-weight:600;">
+        Thursday 9 July 2026</div>
+        <div style="font-size:17px;opacity:.6;font-weight:300;">4th day</div>
         <div class="venue-badge">ENSIAS</div>
       </th>
       <th class="thead-day d5h">
-        <div style="font-family:'Cormorant Garamond',serif;font-size:22px;opacity:.4;">05</div>
-        Friday 10 July
-        <div style="font-size:9px;opacity:.6;font-weight:300;">Last day</div>
-        <div class="venue-badge">ENSIAS</div>
-      </th>
+    <div style="font-family:'Cormorant Garamond',serif;font-size:22px;opacity:.4;">05</div>
+
+    <div style="font-size:21px;font-weight:600;">
+        Friday 10 July 2026
+    </div>
+
+    <div style="font-size:17px;opacity:.6;font-weight:300;">Last day</div>
+    <div class="venue-badge">ENSIAS</div>
+</th>
     </tr>
   </thead>
   <tbody>
 
     <tr>
-      <td class="time-cell">08:30<br>09:30</td>
+      <td class="time-cell">08:30<br>09:00</td>
       <td class="c-reg">
         <span class="tag">Welcome</span>
         <span class="speaker">🎟 Participant Registration</span>
@@ -247,8 +272,8 @@ table.sched th, table.sched td {
       <td class="time-cell">09:00<br>10:30</td>
       <td class="c-welcome">
         <span class="tag" style="color:#C13030;">Opening Ceremony</span>
-        <span class="speaker">Welcome Session</span>
-        <span class="affil">Opening Remarks and Official Speeches<br>Partners' Words</span>
+        
+        <span class="affil">Opening Session and Official Speeches<br>Partners' Words</span>
       </td>
       <td class="c-d2">
         <span class="tag" style="color:var(--d2);">Invited Talk · 9H00–10H30</span>
@@ -299,23 +324,23 @@ table.sched th, table.sched td {
       <td class="c-d2">
         <span class="tag" style="color:var(--d2);">Invited Talk · 11H00–12H00</span>
         <span class="speaker">Prof. El Habib BEN LAHMER</span>
-        <span class="affil">UHII</span>
+        <span class="affil">UHII, Morocco</span>
       </td>
       
       <td class="c-d3">
         <span class="tag" style="color:var(--d3);">Invited Talk · 11H00–12H00</span>
         <span class="speaker">Prof. Mohamed BENDAHAN</span>
-        <span class="affil">FLSH / UM5R</span>
+        <span class="affil">FLSH / UM5R, Morocco</span>
       </td>
       <td class="c-d4">
         <span class="tag" style="color:var(--d4);">Invited Talk · 11H00–12H00</span>
         <span class="speaker">Prof. Ouassim KARRAKCHOU</span>
-        <span class="affil">UIR, Rabat</span>
+        <span class="affil">UIR, Morocco</span>
       </td>
       <td class="c-handson">
         <span class="tag" style="color:#D97706;">Hands-on · 11H00–12H30</span>
         <span class="speaker">Prof. Aissam BERRAHOU</span>
-        <span class="affil">ENSIAS / UM5R</span>
+        <span class="affil">ENSIAS / UM5R, Morocco</span>
       </td>
     </tr>
 
@@ -334,17 +359,17 @@ table.sched th, table.sched td {
       <td class="c-d3">
         <span class="tag" style="color:var(--d3);">Invited Talk · 12H00–13H00</span>
         <span class="speaker">Prof. Dounia LOTFI</span>
-        <span class="affil">FSR / UM5R</span>
+        <span class="affil">FSR / UM5R, Morocco</span>
       </td>
       <td class="c-d4">
         <span class="tag" style="color:var(--d4);">Invited Talk · 12H00–13H00</span>
         <span class="speaker">Prof. Houda BENBRAHIM</span>
-        <span class="affil">ENSIAS / UM5R</span>
+        <span class="affil">ENSIAS / UM5R, Morocco</span>
       </td>
       <td class="c-aws">
         <span class="tag" style="color:#EA580C;">AWS Certifications · 12H30–13H00</span>
         <span class="speaker">Dr. Karim BENZIDANE</span>
-        <span class="affil">AWS Paris, France</span>
+        <span class="affil">AWS, France</span>
       </td>
     </tr>
 
@@ -389,7 +414,7 @@ table.sched th, table.sched td {
       <td class="c-d1">
         <span class="tag" style="color:var(--d1);">Invited Talk · 14H00–15H00</span>
         <span class="speaker">Prof. Mohamed ESSAAIDI</span>
-        <span class="affil">IEEE | ENSIAS / UM5R</span>
+        <span class="affil">IEEE | ENSIAS / UM5R, Morocco</span>
       </td>
       <td class="c-d2">
     <span class="tag" style="color:var(--d2);">
@@ -422,26 +447,30 @@ table.sched th, table.sched td {
       <td class="c-d3">
         <span class="tag" style="color:var(--d3);">Invited Talk &amp; Demo · 14H00–15H00</span>
         <span class="speaker" style="font-size:16px;">Prof. Soufiane AZOUAGHE &amp; Mekki EL AMIRI</span>
-        <span class="affil">FLSH / UM5R</span>
+        <span class="affil">FLSH / UM5R, Morocco</span>
       </td>
       <td class="c-d4">
         <span class="tag" style="color:var(--d4);">Invited Talk · 14H00–15H00</span>
         <span class="speaker">Prof. Hakim HAFIDI</span>
-        <span class="affil">UIR, Rabat</span>
+        <span class="affil">UIR, Morocco</span>
       </td>
       
     </tr>
 
     <tr>
       <td class="time-cell">15:00<br>16:00</td>
-      <td class="c-roundtable">
-        <span class="tag" style="color:#0891B2;">Round Table · 15H00–16H00</span>
-       <span class="speaker">
-    Prof. Y. GAHI · Prof. M. BOUTAYEB<br>
-    Prof. A. DRISSI EL MALIANI
-</span>
-        <span class="affil">UIT / Université de Lorraine / UM5R</span>
-      </td>
+     <td class="c-roundtable">
+    <span class="tag" style="color:#0891B2;">Round Table · 15H00–16H00</span>
+
+    <span class="speaker">Prof. Y. GAHI</span>
+    <span class="affil">UIT, Morocco</span>
+
+    <span class="speaker">Prof. M. BOUTAYEB</span>
+    <span class="affil">Université de Lorraine, France</span>
+
+    <span class="speaker">Prof. A. DRISSI EL MALIANI</span>
+    <span class="affil">UM5R, Morocco</span>
+</td>
       <td class="c-d2">
     <span class="tag" style="color:var(--d2);">
         Invited Talk · 15H00–16H00
@@ -452,7 +481,7 @@ table.sched th, table.sched td {
     </span>
 
     <span class="affil">
-        ENSIAS / UM5R
+        ENSIAS / UM5R, Morocco
     </span>
 
     <div style="margin-top:8px;padding-top:6px;
@@ -473,12 +502,12 @@ table.sched th, table.sched td {
       <td class="c-d3">
         <span class="tag" style="color:var(--d3);">Invited Talk · 15H00–16H00</span>
         <span class="speaker">Prof. Ibrahim RAHHAL</span>
-        <span class="affil">UIR, Rabat</span>
+        <span class="affil">UIR, Morocco</span>
       </td>
       <td class="c-handson">
         <span class="tag" style="color:#D97706;">Hands-on · 15H00–16H00</span>
         <span class="speaker">Prof. Aniss MOUMEN</span>
-        <span class="affil">ENSAK / UIT</span>
+        <span class="affil">ENSAK / UIT, Morocco</span>
       </td>
       <td class="c-sport" rowspan="3" style="vertical-align:middle; text-align:center;">
         <span class="tag" style="color:#0D9488;">SPORT & CULTURE ACTIVITIES · 15H00–18H30 <br> </span>
@@ -511,9 +540,9 @@ table.sched th, table.sched td {
       <td class="time-cell">16:30<br>18:00</td>
 
       <td class="c-handson">
-        <span class="tag" style="color:#D97706;">Hands-on · 16H30–18H00</span>
-        <span class="speaker">Dr. Mohamed IMAM</span>
-        <span class="affil">ENSIAS/UM5R &amp; Université de Waterloo</span>
+      <span class="tag" style="color:#D97706;">Hands-on · 16H30–18H00</span>
+<span class="speaker">Dr. Mohamed IMAM</span>
+<span class="affil">University of Waterloo &amp; LoopX Canada · ENSIAS, UM5R, Morocco</span>
       </td>
 
       <td class="c-handson">
@@ -526,7 +555,7 @@ table.sched th, table.sched td {
     </span>
 
     <span class="affil">
-        ENSAK / UIT
+        ENSAK / UIT, Morocco
     </span>
 
     <div style="margin-top:8px;padding-top:6px;
@@ -554,7 +583,7 @@ table.sched th, table.sched td {
       <td class="c-aws" style="vertical-align:middle; text-align:center;">
         <span class="tag" style="color:#EA580C;">INVITED TALK &amp; HANDS-ON AWS</span>
         <span class="speaker"  font-weight:700; line-height:1.5;">Ms. Tiffany SOUTERRE<br>Mr. Olivier LEPLUS</span>
-        <span class="affil">AWS Paris, France</span>
+        <span class="affil">AWS, France</span>
         <div style="margin-top:10px;font-weight:600;">16:30 - 18:30</div>
       </td>
 
@@ -592,18 +621,34 @@ table.sched th, table.sched td {
 </html>
 """
 
-output_path = r"C:\Users\GASMI MANAL\Desktop\Summer_School_Tasks\HTML Program\output_hd.png"
+
+
+output_pdf = r"C:\Users\GASMI MANAL\Desktop\Summer_School_Tasks\HTML Program\programme_hd.pdf"
 
 with sync_playwright() as p:
     browser = p.chromium.launch()
+
     page = browser.new_page(
-        viewport={"width": 1920, "height": 1080},
-        device_scale_factor=2
+        viewport={"width": 1920, "height": 1080}
     )
 
     page.set_content(html_content)
     page.wait_for_timeout(1000)
-    page.screenshot(path=output_path, full_page=True)
+
+    # Génération PDF haute qualité
+    page.pdf(
+        path=output_pdf,
+        format="A3",          # ou "A4" selon ton programme
+        print_background=True,
+        prefer_css_page_size=True,
+        margin={
+            "top": "10mm",
+            "bottom": "10mm",
+            "left": "10mm",
+            "right": "10mm"
+        }
+    )
+
     browser.close()
 
-print(f"Image correctement réalignée et générée : {output_path}")
+print(f"PDF généré : {output_pdf}")
