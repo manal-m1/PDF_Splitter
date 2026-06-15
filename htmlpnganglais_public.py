@@ -462,13 +462,16 @@ table.sched th, table.sched td {
     <span class="tag" style="color:#0891B2;">Round Table · 15H00–16H00</span>
 
     <span class="speaker">Prof. Y. GAHI</span>
-    <span class="affil">UIT, Morocco</span>
+    <span class="affil"> ENSAK/ UIT, Morocco</span>
 
     <span class="speaker">Prof. M. BOUTAYEB</span>
     <span class="affil">Université de Lorraine, France</span>
 
     <span class="speaker">Prof. A. DRISSI EL MALIANI</span>
-    <span class="affil">UM5R, Morocco</span>
+    <span class="affil"> FSR/ UM5R, Morocco</span>
+    <span class="speaker">Dr. Samson LASAULCE</span>
+    <span class="affil">CRAN, France</span>
+    
 </td>
       <td class="c-d2">
     <span class="tag" style="color:var(--d2);">
@@ -602,9 +605,7 @@ table.sched th, table.sched td {
       <td style="border: none; background: transparent;"></td>
       <td style="border: none; background: transparent;"></td>
       <td style="border: none; background: transparent;"></td>
-      <td class="c-sponsor" style="vertical-align: middle; text-align: center; background: #FFFBEB; border-left: 3px solid #B8860B !important; border-radius: 0 0 8px 8px; box-shadow: 0 4px 12px rgba(184,134,11,0.08);">
-        <span class="speaker" style="font-size: 13px; font-weight: 700; color: #1C1917; margin-top: 2px;">🍽 GALA DINNER</span>
-      </td>
+      
     </tr>
 
   </tbody>
