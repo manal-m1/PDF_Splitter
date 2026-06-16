@@ -663,6 +663,8 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
      SECTION 2 — DETAILED PROGRAMME
 ═══════════════════════════════════════════════ -->
 
+<div class="page-break"></div>
+
 <div class="section-title">
     <h2>Detailed Program</h2>
 </div>
