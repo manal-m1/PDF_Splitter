@@ -8,233 +8,45 @@ html_content = """
 <meta charset="UTF-8">
 
 <style>
+/* 1. Configuration globale */
+@page { size: A4 landscape; margin: 1cm; }
+body { font-family: 'Outfit', sans-serif; background: #FDFBF7; color: #4A4540; padding: 20px; }
 
-@page {
-    size: A4 landscape;
-    margin: 1cm;
-}
-
-body{
-    font-family: Arial, sans-serif;
-    padding:20px;
-    color:#222;
-}
-
-
-.header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    border-bottom:3px solid #003366;
-    padding-bottom:15px;
-    margin-bottom:20px;
-}
-
-.logo{
-    width:100px;
-}
-
-.title{
-    text-align:center;
-    flex:1;
-}
-
-.title h1{
-    color:#003366;
-    margin:0;
-    font-size:28px;
-}
-
-.title h2{
-    margin-top:5px;
-    font-weight:normal;
-}
-
-table{
-    width:100%;
-    border-collapse:collapse;
-}
-
-th{
-    background:#003366;
-    color:white;
-    border:1px solid #ccc;
-    padding:12px;
-    font-size:18px;
-}
-
-td{
-    border:1px solid #ccc;
-    padding:10px;
-    text-align:center;
-    font-size:22px;
-}
-
-tr:nth-child(even){
-    background:#f5f7fa;
-}
-<style>
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-:root {
-  --ink:       #1C1917;
-  --ink-mid:   #44403C;
-  --ink-soft:  #78716C;
-  --line:      #E7E2DB;
-  --page:      #FDFAF6;
-  --white:     #FFFFFF;
-
-  --d1: #2D5A8E;   --d1-bg: #EEF4FB;   --d1-border: #C5D9F0;
-  --d2: #2A7A5C;   --d2-bg: #EBF7F2;   --d2-border: #B8E4D4;
-  --d3: #9B3E1A;   --d3-bg: #FBF0EB;   --d3-border: #F4CCBA;
-  --d4: #5B3580;   --d4-bg: #F3EEF9;   --d4-border: #D9C9EE;
-  --d5: #1A6E7A;   --d5-bg: #EAF5F7;   --d5-border: #B5DDE3;
-
-  --gold:      #B8860B;
-  --gold-pale: #FBF5E6;
-
-  --col-width: 200px;
-  --time-width: 68px;
-}
-
-body {
-  font-family: 'Outfit', sans-serif;
-  background: var(--page);
-  color: var(--ink);
-  padding: 36px 44px;
-  min-width: 1400px;
-}
-
+/* 2. En-tête du document */
 .header {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  padding-bottom: 18px;
-  margin-bottom: 28px;
-  border-bottom: 2px solid var(--ink);
-  position: relative;
+    display: flex; justify-content: space-between; align-items: center;
+    border-bottom: 3px solid #8A7F75; /* Taupe unifié */
+    padding-bottom: 15px; margin-bottom: 20px;
 }
-.header::after {
-  content: '';
-  position: absolute;
-  bottom: -5px; left: 0; right: 0;
-  height: 1px;
-  background: var(--gold);
-  opacity: 0.5;
-}
-.conf-title {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 44px; font-weight: 700; line-height: 1;
-  color: var(--ink); letter-spacing: -1px;
+.title h1 { color: #8A7F75; margin: 0; font-size: 28px; }
+
+/* 3. Tableau unifié */
+table { width: 100%; border-collapse: collapse; background: #FFFFFF; }
+
+/* En-têtes */
+th {
+    background: #8A7F75; 
+    color: #FFFFFF; 
+    border: 1px solid #786E65;
+    padding: 12px;
+    font-size: 15px;
+    text-transform: uppercase;
 }
 
-.date-sub { font-size: 12px; color: var(--ink-soft); text-align: right; font-weight: 300; margin-top: 4px; }
-.conf-sub {
-  font-size: 14px; /* 13 → 14 */
-  color: var(--ink-soft);
-  margin-top: 6px;
-  font-weight: 300;
+/* Cellules */
+td {
+    border: 1px solid #E7E2DB;
+    padding: 12px;
+    text-align: center;
+    font-size: 17px;
+    color: #4A4540;
 }
 
-.big-dates {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 66px; /* 60 → 66 */
-  font-weight: 700;
-  color: var(--ink);
-  line-height: 1;
-  letter-spacing: -3px;
-}
+/* 4. Alternance des lignes (toujours nude/gris chaud) */
+tr:nth-child(even) { background: #F9F7F3; }
 
-.sched-wrap {
-  border: 1px solid var(--line);
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 2px 24px rgba(28,25,23,0.07);
-}
-
-table.sched {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-table.sched th, table.sched td {
-  border: 1px solid var(--line);
-  padding: 8px 10px;
-  vertical-align: middle;
-  font-size: 11px;
-  text-align: center;
-}
-
-.thead-day {
-  background: var(--ink);
-  color: #fff;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 14px;
-  font-weight: 700;
-  padding: 14px 10px;
-}
-.d1h { background: var(--d1); }
-.d2h { background: var(--d2); }
-.d2h-parallel { background: #5B21B6; }
-.d3h { background: var(--d3); }
-.d4h { background: var(--d4); }
-.d5h { background: var(--d5); }
-
-.venue-badge {
-  display: inline-block; margin-top: 5px;
-  font-size: 8px; font-weight: 700; letter-spacing: 2px;
-  text-transform: uppercase; padding: 2px 7px;
-  border-radius: 4px;
-  background: rgba(255,255,255,0.18); color: rgba(255,255,255,0.95);
-}
-
-.time-cell {
-  background: var(--white);
-  font-size: 10px; font-weight: 600;
-  color: var(--ink-soft);
-  white-space: nowrap;
-  width: 68px;
-  min-width: 68px;
-}
-
-.tag {
-  font-size: 11px; font-weight: 700; letter-spacing: 1px;
-  text-transform: uppercase; margin-bottom: 3px; opacity: 0.75;
-  display: block;
-}
-.speaker { font-size: 16px; font-weight: 600; color: var(--ink); line-height: 1.3; display: block; }
-.affil { font-size: 14px; color: var(--ink-soft); font-weight: 300; margin-top: 2px; font-style: italic; display: block; }
-
-.c-reg     { background: #F5F5F4; }
-.c-coffee { background: #F8F7F5; font-size:10px; color: var(--ink-soft); }
-.c-welcome{ background: #FEF2F2; border-left: 3px solid #C13030 !important; }
-.c-lunch  { background: #F0FDF4; border-left: 3px solid #059669 !important; }
-.c-sponsor{ background: var(--gold-pale); border-left: 3px solid var(--gold) !important; }
-.c-d1     { background: var(--d1-bg); border-left: 3px solid var(--d1) !important; }
-.c-d2     { background: var(--d2-bg); border-left: 3px solid var(--d2) !important; }
-.c-d3     { background: var(--d3-bg); border-left: 3px solid var(--d3) !important; }
-.c-d4     { background: var(--d4-bg); border-left: 3px solid var(--d4) !important; }
-.c-d5     { background: var(--d5-bg); border-left: 3px solid var(--d5) !important; }
-.c-handson {
-    background: #FFFBEB;
-    border-left: 3px solid #D97706 !important;
-    font-size: 16px;
-}
-.c-aws    { background: #FFF7ED; border-left: 3px solid #EA580C !important; }
-.c-parallel{ background: #F5F3FF; border-left: 3px solid #7C3AED !important; }
-.c-roundtable{ background: #ECFEFF; border-left: 3px solid #0891B2 !important; }
-.c-sport  { background: #F0FDFA; border-left: 3px solid #0D9488 !important; }
-.c-closing{ background: #F5F3FF; border-left: 3px solid #7C3AED !important; }
-.c-empty  { background: #FAFAF8; }
-
-.footer {
-  display: flex; justify-content: space-between; align-items: center;
-  margin-top: 20px; padding-top: 14px; border-top: 1px solid var(--line);
-  font-size: 10px; color: var(--ink-soft);
-}
-.footer strong { color: var(--ink-mid); font-weight: 600; }
-
-
+/* 5. Classe optionnelle pour souligner une ligne importante (plus de bleu) */
+.important-row { border-left: 5px solid #8A7F75 !important; }
 </style>
 </head>
 
