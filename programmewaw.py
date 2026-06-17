@@ -685,7 +685,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
    
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Mon 6 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 1 — Mon, July 06, 2026</td>
       <td class="time-slot">08:30 – 09:00</td>
       <td>
         <span class="speaker-name">—</span>
@@ -700,7 +700,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Mon 6 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 1 — Mon, July 06, 2026</td>
       <td class="time-slot">09:00 – 10:30</td>
       <td>
         <span class="speaker-name">—</span>
@@ -715,7 +715,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Mon 6 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 1 — Mon, July 06, 2026</td>
       <td class="time-slot">11:00 – 12:00</td>
       <td>
         <span class="speaker-name">—</span>
@@ -726,7 +726,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Mon 6 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 1 — Mon, July 06, 2026</td>
       <td class="time-slot">12:00 – 13:00</td>
       <td>
         <span class="speaker-name">Prof. Fabrice KORDON</span>
@@ -741,7 +741,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Mon 6 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 1 — Mon, July 06, 2026</td>
       <td class="time-slot">14:00 – 15:00</td>
       <td>
         <span class="speaker-name">Prof. Mohamed ESSAAIDI</span>
@@ -752,7 +752,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Mon 6 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 1 — Mon, July 06, 2026</td>
       <td class="time-slot">15:00 – 16:00</td>
       <td>
        
@@ -776,7 +776,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Mon 6 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);"> Day 1 — Mon, July 06, 2026</td>
       <td class="time-slot">16:30 – 18:00</td>
       <td>
         <span class="speaker-name">Dr. Mohamed IMAM</span>
@@ -792,7 +792,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 
   
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Tue 7 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 2 — Tue, July 07, 2026</td>
       <td class="time-slot">09:00 – 10:30</td>
       <td>
         <span class="speaker-name">Prof. Mohamed CHETOUANI</span>
@@ -807,7 +807,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Tue 7 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 3 — Wed, July 08, 2026</td>
       <td class="time-slot">11:00 – 12:00</td>
       <td>
         <span class="speaker-name">Prof. El Habib BEN LAHMER</span>
@@ -818,7 +818,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Tue 7 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 2 — Tue, July 07, 2026</td>
       <td class="time-slot">12:00 – 13:00</td>
       <td>
         <span class="speaker-name">Prof. Anass NOURI</span>
@@ -833,7 +833,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Tue 7 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 2 — Tue, July 07, 2026</td>
       <td class="time-slot">14:00 – 15:00</td>
       <td>
         <span class="speaker-name">Prof. Mohammed KHALIL</span>
@@ -847,7 +847,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Tue 7 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 2 — Tue, July 07, 2026</td>
       <td class="time-slot">15:00 – 16:00</td>
       <td>
         <span class="speaker-name">Prof. Boutaina HDIOUD</span>
@@ -865,7 +865,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Tue 7 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 2 — Tue, July 07, 2026</td>
       <td class="time-slot">16:30 – 18:00</td>
       <td>
         <span class="speaker-name">Prof. Jihane GHARIB</span>
@@ -884,7 +884,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 
    
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Wed 8 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 3 — Wed, July 08, 2026</td>
       <td class="time-slot">09:00 – 10:30</td>
       <td>
         <span class="speaker-name">Prof. Kamel SMAÏLI</span>
@@ -899,7 +899,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Wed 8 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 3 — Wed, July 08, 2026</td>
       <td class="time-slot">11:00 – 12:00</td>
       <td>
         <span class="speaker-name">Prof. Mohamed BENDAHAN</span>
@@ -910,7 +910,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Wed 8 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 3 — Wed, July 08, 2026</td>
       <td class="time-slot">12:00 – 13:00</td>
       <td>
         <span class="speaker-name">Prof. Dounia LOTFI</span>
@@ -925,7 +925,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Wed 8 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 3 — Wed, July 08, 2026</td>
       <td class="time-slot">14:00 – 15:00</td>
       <td>
         <span class="speaker-name">Prof. Soufiane AZOUAGHE &amp; Mekki EL AMIRI</span>
@@ -936,7 +936,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Wed 8 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 3 — Wed, July 08, 2026</td>
       <td class="time-slot">15:00 – 16:00</td>
       <td>
         <span class="speaker-name">Prof. Ibrahim RAHHAL</span>
@@ -951,7 +951,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Wed 8 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 3 — Wed, July 08, 2026</td>
       <td class="time-slot">16:30 – 18:00</td>
       <td>
         <span class="speaker-name">Dr. Ayoub FARKANE</span>
@@ -967,7 +967,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 
   
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Thu 9 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 4 — Thu, July 09, 2026</td>
       <td class="time-slot">09:00 – 10:00</td>
       <td>
         <span class="speaker-name">Prof. Luc DE BRABANDERE</span>
@@ -982,7 +982,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Thu 9 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 4 — Thu, July 09, 2026</td>
       <td class="time-slot">11:00 – 12:00</td>
       <td>
         <span class="speaker-name">Prof. Ouassim KARRAKCHOU</span>
@@ -993,7 +993,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Thu 9 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 4 — Thu, July 09, 2026</td>
       <td class="time-slot">12:00 – 13:00</td>
       <td>
         <span class="speaker-name">Prof. Houda BENBRAHIM</span>
@@ -1008,7 +1008,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Thu 9 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 4 — Thu, July 09, 2026</td>
       <td class="time-slot">14:00 – 15:00</td>
       <td>
         <span class="speaker-name">Prof. Hakim HAFIDI</span>
@@ -1019,7 +1019,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Thu 9 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 4 — Thu, July 09, 2026</td>
       <td class="time-slot">15:00 – 16:00</td>
       <td>
         <span class="speaker-name">Prof. Aniss MOUMEN</span>
@@ -1034,7 +1034,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Thu 9 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 4 — Thu, July 09, 2026</td>
       <td class="time-slot">16:30 – 18:30</td>
       <td>
         <span class="speaker-name">Ms. Tiffany SOUTERRE &amp; Mr. Olivier LEPLUS</span>
@@ -1051,7 +1051,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Fri 10 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 5 — Fri, July 10, 2026</td>
       <td class="time-slot">09:00 – 10:30</td>
       <td>
         <span class="speaker-name">Mr. Mohammed ACHOUR</span>
@@ -1066,7 +1066,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Fri 10 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 5 — Fri, July 10, 2026</td>
       <td class="time-slot">11:00 – 12:30</td>
       <td>
         <span class="speaker-name">Prof. Aissam BERRAHOU</span>
@@ -1077,7 +1077,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Fri 10 Jul</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 5 — Fri, July 10, 2026</td>
       <td class="time-slot">12:30 – 13:00</td>
       <td>
         <span class="speaker-name">Dr. Karim BENZIDANE</span>
@@ -1088,7 +1088,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     </tr>
 
     <tr>
-  <td style="font-size:14px;color:var(--ink-soft);">Fri 10 Jul</td>
+  <td style="font-size:14px;color:var(--ink-soft);">Day 5 — Fri, July 10, 2026</td>
   <td class="time-slot">13:00 – 13:30</td>
   <td>
     <span class="speaker-name">—</span>
@@ -1103,7 +1103,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 </tr>
 
 <tr>
-  <td style="font-size:14px;color:var(--ink-soft);">Fri 10 Jul</td>
+  <td style="font-size:14px;color:var(--ink-soft);">Day 5 — Fri, July 10, 2026</td>
   <td class="time-slot">15:00 – 18:30</td>
   <td>
     <span class="speaker-name">—</span>
