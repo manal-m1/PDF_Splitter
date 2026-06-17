@@ -11,7 +11,7 @@ html_content ="""
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ISSAI Franco-Moroccan 2026 — Full Programme</title>
+
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
 
@@ -354,7 +354,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
      SECTION 1 — OVERVIEW GRID
 ═══════════════════════════════════════════════ -->
 <div class="section-title" style="padding-top:24px;">
-  <h2>Overview Programme</h2>
+ 
 
 </div>
 
@@ -755,8 +755,17 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
       <td style="font-size:14px;color:var(--ink-soft);">Mon 6 Jul</td>
       <td class="time-slot">15:00 – 16:00</td>
       <td>
-        <span class="speaker-name">Prof. Y. GAHI &amp; Prof. M. BOUTAYEB<br>Prof. A. DRISSI EL MALIANI &amp; Dr. S. LASAULCE; Prof. G. SIMON</span>
-        <span class="speaker-affil">ENSAK/UIT Morocco · Univ. de Lorraine, France · FSR/UM5R Morocco · CRAN, France · Univ. de Lorraine</span>
+       
+        <span class="speaker">Prof. Y. GAHI</span>
+        <span class="affil">ENSAK / UIT, Morocco</span>
+        <span class="speaker">Prof. M. BOUTAYEB</span>
+        <span class="affil">University of Lorraine, France</span>
+        <span class="speaker">Prof. A. DRISSI EL MALIANI</span>
+        <span class="affil">FSR / UM5R, Morocco</span>
+        <span class="speaker">Dr. Samson LASAULCE</span>
+        <span class="affil">CRAN, France</span>
+        <span class="speaker">Prof. Gilles SIMON</span>
+        <span class="affil">University of Lorraine, France</span>
       </td>
       <td><span class="badge badge-round">Round Table</span></td>
       <td class="title-cell">When Data Fails the Machine: Industrial AI under Constraints of Scarcity, Incompleteness, and Bias</td>
