@@ -324,6 +324,11 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     page-break-before: always;
     break-before: page;
 }
+.day-title{
+    margin:0 0 12px 0;
+    font-size:24px;
+    font-weight:700;
+}
 </style>
 </head>
 <body>
@@ -663,12 +668,6 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
      SECTION 2 — DETAILED PROGRAMME
 ═══════════════════════════════════════════════ -->
 
-<div class="page-break"></div>
-
-<div class="section-title">
-    <h2>Detailed Program</h2>
-</div>
-
 <div class="detail-wrap">
 <table class="detail">
   <thead>
@@ -683,6 +682,28 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
   <tbody>
 
    
+
+   <!-- ========================================================= -->
+<!-- DAY 1 -->
+<!-- ========================================================= -->
+
+<div class="page-break"></div>
+
+<h3 class="day-title">Day 1 — Monday, July 06, 2026</h3>
+
+<div class="detail-wrap">
+<table class="detail">
+  <thead>
+    <tr>
+      <th style="width:100px;">Date</th>
+      <th style="width:100px;">Time Slot</th>
+      <th style="width:200px;">Speaker &amp; Affiliation</th>
+      <th style="width:110px;">Session Type</th>
+      <th>Session Title</th>
+    </tr>
+  </thead>
+
+  <tbody>
 
     <tr>
       <td style="font-size:14px;color:var(--ink-soft);">Day 1 — Mon, July 06, 2026</td>
@@ -707,11 +728,15 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
         <span class="speaker-affil">Organising Committee</span>
       </td>
       <td><span class="badge badge-opening">Opening</span></td>
-      <td class="title-cell">Opening Ceremony — Official Speeches &amp; Partners' Words</td>
+      <td class="title-cell">
+        Opening Ceremony — Official Speeches &amp; Partners' Words
+      </td>
     </tr>
 
     <tr class="break-row">
-      <td colspan="5">☕ Coffee Break &amp; Participant Poster Presentations &nbsp;·&nbsp; 10:30 – 11:00</td>
+      <td colspan="5">
+        ☕ Coffee Break &amp; Participant Poster Presentations · 10:30 – 11:00
+      </td>
     </tr>
 
     <tr>
@@ -733,11 +758,13 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
         <span class="speaker-affil">Sorbonne Université (SU), France</span>
       </td>
       <td><span class="badge badge-talk">Invited Talk</span></td>
-      <td class="title-cell">Cybersecurity, the massive surge of AI</td>
+      <td class="title-cell">
+        Cybersecurity, the massive surge of AI
+      </td>
     </tr>
 
     <tr class="break-row">
-      <td colspan="5">🍽 Lunch Break &nbsp;·&nbsp; 13:00 – 14:00</td>
+      <td colspan="5">🍽 Lunch Break · 13:00 – 14:00</td>
     </tr>
 
     <tr>
@@ -748,49 +775,92 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
         <span class="speaker-affil">IEEE | ENSIAS / UM5R, Morocco</span>
       </td>
       <td><span class="badge badge-talk">Invited Talk</span></td>
-      <td class="title-cell">Leveraging AI for the acceleration of the 2030 UN Agenda for Sustainable Development</td>
+      <td class="title-cell">
+        Leveraging AI for the acceleration of the 2030 UN Agenda for Sustainable Development
+      </td>
     </tr>
 
     <tr>
       <td style="font-size:14px;color:var(--ink-soft);">Day 1 — Mon, July 06, 2026</td>
       <td class="time-slot">15:00 – 16:00</td>
       <td>
-       
         <span class="speaker">Prof. Y. GAHI</span>
         <span class="affil">ENSAK / UIT, Morocco</span>
+
         <span class="speaker">Prof. M. BOUTAYEB</span>
         <span class="affil">University of Lorraine, France</span>
+
         <span class="speaker">Prof. A. DRISSI EL MALIANI</span>
         <span class="affil">FSR / UM5R, Morocco</span>
+
         <span class="speaker">Dr. Samson LASAULCE</span>
         <span class="affil">CRAN, France</span>
+
         <span class="speaker">Prof. Gilles SIMON</span>
         <span class="affil">University of Lorraine, France</span>
       </td>
-      <td><span class="badge badge-round">Round Table</span></td>
-      <td class="title-cell">When Data Fails the Machine: Industrial AI under Constraints of Scarcity, Incompleteness, and Bias</td>
+
+      <td>
+        <span class="badge badge-round">Round Table</span>
+      </td>
+
+      <td class="title-cell">
+        When Data Fails the Machine: Industrial AI under Constraints of Scarcity,
+        Incompleteness, and Bias
+      </td>
     </tr>
 
     <tr class="break-row">
-      <td colspan="5">☕ Coffee Break &amp; Participant Poster Presentations &nbsp;·&nbsp; 16:00 – 16:30</td>
+      <td colspan="5">
+        ☕ Coffee Break &amp; Participant Poster Presentations · 16:00 – 16:30
+      </td>
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);"> Day 1 — Mon, July 06, 2026</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 1 — Mon, July 06, 2026</td>
       <td class="time-slot">16:30 – 18:00</td>
       <td>
         <span class="speaker-name">Dr. Mohamed IMAM</span>
-        <span class="speaker-affil">University of Waterloo &amp; LoopX Canada · ENSIAS, UM5R, Morocco</span>
+        <span class="speaker-affil">
+          University of Waterloo &amp; LoopX Canada · ENSIAS, UM5R, Morocco
+        </span>
       </td>
-      <td><span class="badge badge-handson">Hands-on Lab</span></td>
-      <td class="title-cell">Deploying Real-Time Vision Systems for Mining Safety on Edge AI</td>
+
+      <td>
+        <span class="badge badge-handson">Hands-on Lab</span>
+      </td>
+
+      <td class="title-cell">
+        Deploying Real-Time Vision Systems for Mining Safety on Edge AI
+      </td>
     </tr>
 
     <tr class="break-row">
-      <td colspan="5">🔚 End of Day &nbsp;·&nbsp; 18:30</td>
+      <td colspan="5">
+        🔚 End of Day · 18:30
+      </td>
     </tr>
 
+  </tbody>
+</table>
+</div>
   
+    <!-- ========================================================= -->
+<!-- DAY 2 -->
+<!-- ========================================================= -->
+
+<div class="page-break"></div>
+
+<h3 class="day-title">Day 2 — Tuesday, July 07, 2026</h3>
+
+<div class="detail-wrap">
+<table class="detail">
+  <thead>
+    
+  </thead>
+
+  <tbody>
+
     <tr>
       <td style="font-size:14px;color:var(--ink-soft);">Day 2 — Tue, July 07, 2026</td>
       <td class="time-slot">09:00 – 10:30</td>
@@ -799,22 +869,28 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
         <span class="speaker-affil">Sorbonne Université (SU), France</span>
       </td>
       <td><span class="badge badge-talk">Invited Talk</span></td>
-      <td class="title-cell">When Robots Get It Wrong: Detecting Ambiguity and Failure Using Vision-Language Models</td>
+      <td class="title-cell">
+        When Robots Get It Wrong: Detecting Ambiguity and Failure Using Vision-Language Models
+      </td>
     </tr>
 
     <tr class="break-row">
-      <td colspan="5">☕ Coffee Break &amp; Participant Poster Presentations &nbsp;·&nbsp; 10:30 – 11:00</td>
+      <td colspan="5">
+        ☕ Coffee Break &amp; Participant Poster Presentations · 10:30 – 11:00
+      </td>
     </tr>
 
     <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Day 3 — Wed, July 08, 2026</td>
+      <td style="font-size:14px;color:var(--ink-soft);">Day 2 — Tue, July 07, 2026</td>
       <td class="time-slot">11:00 – 12:00</td>
       <td>
         <span class="speaker-name">Prof. El Habib BEN LAHMER</span>
         <span class="speaker-affil">UHII, Morocco</span>
       </td>
       <td><span class="badge badge-talk">Invited Talk</span></td>
-      <td class="title-cell">Thinking Ahead: Joint-Embedding Predictive Architecture for Long-Range Coherence in Small Language Models</td>
+      <td class="title-cell">
+        Thinking Ahead: Joint-Embedding Predictive Architecture for Long-Range Coherence in Small Language Models
+      </td>
     </tr>
 
     <tr>
@@ -825,11 +901,15 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
         <span class="speaker-affil">FSK, UIT, Morocco</span>
       </td>
       <td><span class="badge badge-talk">Invited Talk</span></td>
-      <td class="title-cell">Analyse multimodale d'images médicales en contexte de faible disponibilité des données</td>
+      <td class="title-cell">
+        Analyse multimodale d'images médicales en contexte de faible disponibilité des données
+      </td>
     </tr>
 
     <tr class="break-row">
-      <td colspan="5">🍽 Lunch Break &nbsp;·&nbsp; 13:00 – 14:00</td>
+      <td colspan="5">
+        🍽 Lunch Break · 13:00 – 14:00
+      </td>
     </tr>
 
     <tr>
@@ -841,9 +921,13 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
       </td>
       <td>
         <span class="badge badge-talk">Invited Talk</span><br>
-        <span class="badge badge-parallel" style="margin-top:4px;">Parallel — My Thesis 180s</span>
+        <span class="badge badge-parallel" style="margin-top:4px;">
+          Parallel — My Thesis 180s
+        </span>
       </td>
-      <td class="title-cell">The Seven Sophisms of AI</td>
+      <td class="title-cell">
+        The Seven Sophisms of AI
+      </td>
     </tr>
 
     <tr>
@@ -855,13 +939,19 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
       </td>
       <td>
         <span class="badge badge-talk">Invited Talk</span><br>
-        <span class="badge badge-parallel" style="margin-top:4px;">Parallel — My Thesis 180s</span>
+        <span class="badge badge-parallel" style="margin-top:4px;">
+          Parallel — My Thesis 180s
+        </span>
       </td>
-      <td class="title-cell">Fondements des architectures Transformer : des LLMs à l'intelligence artificielle multimodale</td>
+      <td class="title-cell">
+        Fondements des architectures Transformer : des LLMs à l'intelligence artificielle multimodale
+      </td>
     </tr>
 
     <tr class="break-row">
-      <td colspan="5">☕ Coffee Break &amp; Participant Poster Presentations &nbsp;·&nbsp; 16:00 – 16:30</td>
+      <td colspan="5">
+        ☕ Coffee Break &amp; Participant Poster Presentations · 16:00 – 16:30
+      </td>
     </tr>
 
     <tr>
@@ -873,250 +963,327 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
       </td>
       <td>
         <span class="badge badge-handson">Hands-on Lab</span><br>
-        <span class="badge badge-parallel" style="margin-top:4px;">Parallel — My Thesis 180s</span>
+        <span class="badge badge-parallel" style="margin-top:4px;">
+          Parallel — My Thesis 180s
+        </span>
       </td>
-      <td class="title-cell">Designing and Stress-Testing an AI-Assisted Prioritization System in Real-Time Contexts: Decision Matrix, Data Quality, Human Verification, and Accountability</td>
+      <td class="title-cell">
+        Designing and Stress-Testing an AI-Assisted Prioritization System in Real-Time Contexts: Decision Matrix, Data Quality, Human Verification, and Accountability
+      </td>
     </tr>
 
     <tr class="break-row">
-      <td colspan="5">🔚 End of Day &nbsp;·&nbsp; 18:30</td>
-    </tr>
-
-   
-    <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Day 3 — Wed, July 08, 2026</td>
-      <td class="time-slot">09:00 – 10:30</td>
-      <td>
-        <span class="speaker-name">Prof. Kamel SMAÏLI</span>
-        <span class="speaker-affil">Université de Lorraine (UL), France</span>
+      <td colspan="5">
+        🔚 End of Day · 18:30
       </td>
-      <td><span class="badge badge-talk">Invited Talk</span></td>
-      <td class="title-cell">From Judge to Mentor: How LLMs Can Guide Small Models to Detect Fake News</td>
     </tr>
 
-    <tr class="break-row">
-      <td colspan="5">☕ Coffee Break &amp; Participant Poster Presentations &nbsp;·&nbsp; 10:30 – 11:00</td>
-    </tr>
+  </tbody>
+</table>
+</div>
+    <!-- ========================================================= -->
+<!-- DAY 3 -->
+<!-- ========================================================= -->
 
-    <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Day 3 — Wed, July 08, 2026</td>
-      <td class="time-slot">11:00 – 12:00</td>
-      <td>
-        <span class="speaker-name">Prof. Mohamed BENDAHAN</span>
-        <span class="speaker-affil">FLSH / UM5R, Morocco</span>
-      </td>
-      <td><span class="badge badge-talk">Invited Talk</span></td>
-      <td class="title-cell">Vers une IA enracinée : les SHS à l'épreuve des datas</td>
-    </tr>
+<div class="page-break"></div>
 
-    <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Day 3 — Wed, July 08, 2026</td>
-      <td class="time-slot">12:00 – 13:00</td>
-      <td>
-        <span class="speaker-name">Prof. Dounia LOTFI</span>
-        <span class="speaker-affil">FSR / UM5R, Morocco</span>
-      </td>
-      <td><span class="badge badge-talk">Invited Talk</span></td>
-      <td class="title-cell">Graph intelligence for complex networks analysis</td>
-    </tr>
+<h3 class="day-title">Day 3 — Wednesday, July 08, 2026</h3>
 
-    <tr class="break-row">
-      <td colspan="5">🍽 Lunch Break &nbsp;·&nbsp; 13:00 – 14:00</td>
-    </tr>
+<div class="detail-wrap">
+<table class="detail">
+<thead>
+<tr>
+<th style="width:100px;">Date</th>
+<th style="width:100px;">Time Slot</th>
+<th style="width:200px;">Speaker &amp; Affiliation</th>
+<th style="width:110px;">Session Type</th>
+<th>Session Title</th>
+</tr>
+</thead>
 
-    <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Day 3 — Wed, July 08, 2026</td>
-      <td class="time-slot">14:00 – 15:00</td>
-      <td>
-        <span class="speaker-name">Prof. Soufiane AZOUAGHE &amp; Mekki EL AMIRI</span>
-        <span class="speaker-affil">FLSH / UM5R, Morocco</span>
-      </td>
-      <td><span class="badge badge-talk">Invited Talk &amp; Demo</span></td>
-      <td class="title-cell">Psychologie et intelligence artificielle : acceptabilité, expérience utilisateur et santé mentale</td>
-    </tr>
+<tbody>
 
-    <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Day 3 — Wed, July 08, 2026</td>
-      <td class="time-slot">15:00 – 16:00</td>
-      <td>
-        <span class="speaker-name">Prof. Ibrahim RAHHAL</span>
-        <span class="speaker-affil">UIR, Morocco</span>
-      </td>
-      <td><span class="badge badge-talk">Invited Talk</span></td>
-      <td class="title-cell">Aligning Education with the Digital Labor Market Using AI: From Labor Market Intelligence to Personalized Learning</td>
-    </tr>
-
-    <tr class="break-row">
-      <td colspan="5">☕ Coffee Break &amp; Participant Poster Presentations &nbsp;·&nbsp; 16:00 – 16:30</td>
-    </tr>
-
-    <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Day 3 — Wed, July 08, 2026</td>
-      <td class="time-slot">16:30 – 18:00</td>
-      <td>
-        <span class="speaker-name">Dr. Ayoub FARKANE</span>
-        <span class="speaker-affil">Université de Lorraine, France · UIR, Morocco</span>
-      </td>
-      <td><span class="badge badge-handson">Hands-on Lab</span></td>
-      <td class="title-cell">Hands-On Physics-Informed Neural Networks: From Theory to Real-World Applications in Healthcare and Energy</td>
-    </tr>
-
-    <tr class="break-row">
-      <td colspan="5">🔚 End of Day &nbsp;·&nbsp; 18:30</td>
-    </tr>
-
-  
-    <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Day 4 — Thu, July 09, 2026</td>
-      <td class="time-slot">09:00 – 10:00</td>
-      <td>
-        <span class="speaker-name">Prof. Luc DE BRABANDERE</span>
-        <span class="speaker-affil"></span>
-      </td>
-      <td><span class="badge badge-talk">Invited Talk</span></td>
-      <td class="title-cell">The Art of Thinking in a Digital World</td>
-    </tr>
-
-    <tr class="break-row">
-      <td colspan="5">☕ Coffee Break &amp; Participant Poster Presentations &nbsp;·&nbsp; 10:30 – 11:00</td>
-    </tr>
-
-    <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Day 4 — Thu, July 09, 2026</td>
-      <td class="time-slot">11:00 – 12:00</td>
-      <td>
-        <span class="speaker-name">Prof. Ouassim KARRAKCHOU</span>
-        <span class="speaker-affil">UIR, Morocco</span>
-      </td>
-      <td><span class="badge badge-talk">Invited Talk</span></td>
-      <td class="title-cell">Dynamic Neural Network Approaches for a Sustainable Edge AI</td>
-    </tr>
-
-    <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Day 4 — Thu, July 09, 2026</td>
-      <td class="time-slot">12:00 – 13:00</td>
-      <td>
-        <span class="speaker-name">Prof. Houda BENBRAHIM</span>
-        <span class="speaker-affil">ENSIAS / UM5R, Morocco</span>
-      </td>
-      <td><span class="badge badge-talk">Invited Talk</span></td>
-      <td class="title-cell">Graphs Are Not Dead: How GNNs and LLMs Together Are Redefining Multilingual Sentiment</td>
-    </tr>
-
-    <tr class="break-row">
-      <td colspan="5">🍽 Lunch Break &nbsp;·&nbsp; 13:00 – 14:00</td>
-    </tr>
-
-    <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Day 4 — Thu, July 09, 2026</td>
-      <td class="time-slot">14:00 – 15:00</td>
-      <td>
-        <span class="speaker-name">Prof. Hakim HAFIDI</span>
-        <span class="speaker-affil">UIR, Morocco</span>
-      </td>
-      <td><span class="badge badge-talk">Invited Talk</span></td>
-      <td class="title-cell">Less Data, More Geometry: Symmetry, Inductive Biases, and the Case for Frugal Deep Learning</td>
-    </tr>
-
-    <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Day 4 — Thu, July 09, 2026</td>
-      <td class="time-slot">15:00 – 16:00</td>
-      <td>
-        <span class="speaker-name">Prof. Aniss MOUMEN</span>
-        <span class="speaker-affil">ENSAK / UIT, Morocco</span>
-      </td>
-      <td><span class="badge badge-handson">Hands-on Lab</span></td>
-      <td class="title-cell">The Augmented Researcher: Transforming Scientific Inquiry through Generative AI, RAG Systems, and Open-Source LLMs</td>
-    </tr>
-
-    <tr class="break-row">
-      <td colspan="5">☕ Coffee Break &amp; Participant Poster Presentations &nbsp;·&nbsp; 16:00 – 16:30</td>
-    </tr>
-
-    <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Day 4 — Thu, July 09, 2026</td>
-      <td class="time-slot">16:30 – 18:30</td>
-      <td>
-        <span class="speaker-name">Ms. Tiffany SOUTERRE &amp; Mr. Olivier LEPLUS</span>
-        <span class="speaker-affil">AWS, France</span>
-      </td>
-      <td><span class="badge badge-aws">AWS Hands-on</span></td>
-      <td class="title-cell">Build Your Own RPG Game Master Using Agentic AI and the Strands Agents SDK</td>
-    </tr>
-
-    <tr class="break-row">
-      <td colspan="5">🔚 End of Day &nbsp;·&nbsp; 18:30</td>
-    </tr>
-
-    
-
-    <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Day 5 — Fri, July 10, 2026</td>
-      <td class="time-slot">09:00 – 10:30</td>
-      <td>
-        <span class="speaker-name">Mr. Mohammed ACHOUR</span>
-        <span class="speaker-affil">Cisco, Morocco</span>
-      </td>
-      <td><span class="badge badge-talk">Invited Talk</span></td>
-      <td class="title-cell">The Cisco AI Story: Scaling and Securing the Intelligent Era</td>
-    </tr>
-
-    <tr class="break-row">
-      <td colspan="5">☕ Coffee Break &amp; Participant Poster Presentations &nbsp;·&nbsp; 10:30 – 11:00</td>
-    </tr>
-
-    <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Day 5 — Fri, July 10, 2026</td>
-      <td class="time-slot">11:00 – 12:30</td>
-      <td>
-        <span class="speaker-name">Prof. Aissam BERRAHOU</span>
-        <span class="speaker-affil">ENSIAS / UM5R, Morocco</span>
-      </td>
-      <td><span class="badge badge-handson">Hands-on Lab</span></td>
-      <td class="title-cell">Edge AI for Computer Vision: Fundamentals, Hardware-Aware Optimization, and Experimental Validation on Resource-Constrained Systems</td>
-    </tr>
-
-    <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Day 5 — Fri, July 10, 2026</td>
-      <td class="time-slot">12:30 – 13:00</td>
-      <td>
-        <span class="speaker-name">Dr. Karim BENZIDANE</span>
-        <span class="speaker-affil">AWS, France</span>
-      </td>
-      <td><span class="badge badge-aws">AWS Session</span></td>
-      <td class="title-cell">Cracking the AWS Certification Code: A Trainer's Playbook for Exam Success</td>
-    </tr>
-
-    <tr>
-  <td style="font-size:14px;color:var(--ink-soft);">Day 5 — Fri, July 10, 2026</td>
-  <td class="time-slot">13:00 – 13:30</td>
-  <td>
-    <span class="speaker-name">—</span>
-    <span class="speaker-affil">All participants</span>
-  </td>
-  <td><span class="badge badge-closing">Closing Session</span></td>
-  <td class="title-cell">Participant Feedback &amp; Closing Remarks</td>
+<tr>
+<td style="font-size:14px;color:var(--ink-soft);">Day 3 — Wed, July 08, 2026</td>
+<td class="time-slot">09:00 – 10:30</td>
+<td>
+<span class="speaker-name">Prof. Kamel SMAÏLI</span>
+<span class="speaker-affil">Université de Lorraine (UL), France</span>
+</td>
+<td><span class="badge badge-talk">Invited Talk</span></td>
+<td class="title-cell">From Judge to Mentor: How LLMs Can Guide Small Models to Detect Fake News</td>
 </tr>
 
 <tr class="break-row">
-  <td colspan="5">🍽 Lunch &nbsp;·&nbsp; 13:30 – 15:00</td>
+<td colspan="5">☕ Coffee Break &amp; Participant Poster Presentations · 10:30 – 11:00</td>
 </tr>
 
 <tr>
-  <td style="font-size:14px;color:var(--ink-soft);">Day 5 — Fri, July 10, 2026</td>
-  <td class="time-slot">15:00 – 18:30</td>
-  <td>
-    <span class="speaker-name">—</span>
-    <span class="speaker-affil">All participants</span>
-  </td>
-  <td><span class="badge badge-poster">TBC</span></td>
-  <td class="title-cell"><em>To Be Confirmed</em></td>
+<td style="font-size:14px;color:var(--ink-soft);">Day 3 — Wed, July 08, 2026</td>
+<td class="time-slot">11:00 – 12:00</td>
+<td>
+<span class="speaker-name">Prof. Mohamed BENDAHAN</span>
+<span class="speaker-affil">FLSH / UM5R, Morocco</span>
+</td>
+<td><span class="badge badge-talk">Invited Talk</span></td>
+<td class="title-cell">Vers une IA enracinée : les SHS à l'épreuve des datas</td>
+</tr>
+
+<tr>
+<td style="font-size:14px;color:var(--ink-soft);">Day 3 — Wed, July 08, 2026</td>
+<td class="time-slot">12:00 – 13:00</td>
+<td>
+<span class="speaker-name">Prof. Dounia LOTFI</span>
+<span class="speaker-affil">FSR / UM5R, Morocco</span>
+</td>
+<td><span class="badge badge-talk">Invited Talk</span></td>
+<td class="title-cell">Graph intelligence for complex networks analysis</td>
 </tr>
 
 <tr class="break-row">
-  <td colspan="5">🔚 End of Summer School &nbsp;·&nbsp; 18:30</td>
+<td colspan="5">🍽 Lunch Break · 13:00 – 14:00</td>
 </tr>
-  </tbody>
+
+<tr>
+<td>Day 3 — Wed, July 08, 2026</td>
+<td class="time-slot">14:00 – 15:00</td>
+<td>
+<span class="speaker-name">Prof. Soufiane AZOUAGHE &amp; Mekki EL AMIRI</span>
+<span class="speaker-affil">FLSH / UM5R, Morocco</span>
+</td>
+<td><span class="badge badge-talk">Invited Talk &amp; Demo</span></td>
+<td class="title-cell">Psychologie et intelligence artificielle : acceptabilité, expérience utilisateur et santé mentale</td>
+</tr>
+
+<tr>
+<td>Day 3 — Wed, July 08, 2026</td>
+<td class="time-slot">15:00 – 16:00</td>
+<td>
+<span class="speaker-name">Prof. Ibrahim RAHHAL</span>
+<span class="speaker-affil">UIR, Morocco</span>
+</td>
+<td><span class="badge badge-talk">Invited Talk</span></td>
+<td class="title-cell">Aligning Education with the Digital Labor Market Using AI</td>
+</tr>
+
+<tr class="break-row">
+<td colspan="5">☕ Coffee Break &amp; Participant Poster Presentations · 16:00 – 16:30</td>
+</tr>
+
+<tr>
+<td>Day 3 — Wed, July 08, 2026</td>
+<td class="time-slot">16:30 – 18:00</td>
+<td>
+<span class="speaker-name">Dr. Ayoub FARKANE</span>
+<span class="speaker-affil">Université de Lorraine, France · UIR, Morocco</span>
+</td>
+<td><span class="badge badge-handson">Hands-on Lab</span></td>
+<td class="title-cell">Hands-On Physics-Informed Neural Networks: From Theory to Real-World Applications in Healthcare and Energy</td>
+<div style="margin-top:8px;font-style:italic;font-weight:600;color:#6a5acd;">
+🔚 End of Day · 18:30
+</div>
+</tr>
+
+
+</tbody>
+</table>
+</div>
+<!-- ========================================================= -->
+<!-- DAY 4 -->
+<!-- ========================================================= -->
+
+<div class="page-break"></div>
+
+<h3 class="day-title">Day 4 — Thursday, July 09, 2026</h3>
+
+<div class="detail-wrap">
+<table class="detail">
+
+<thead>
+<tr>
+<th style="width:100px;">Date</th>
+<th style="width:100px;">Time Slot</th>
+<th style="width:200px;">Speaker &amp; Affiliation</th>
+<th style="width:110px;">Session Type</th>
+<th>Session Title</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>Day 4 — Thu, July 09, 2026</td>
+<td class="time-slot">09:00 – 10:00</td>
+<td><span class="speaker-name">Prof. Luc DE BRABANDERE</span></td>
+<td><span class="badge badge-talk">Invited Talk</span></td>
+<td class="title-cell">The Art of Thinking in a Digital World</td>
+</tr>
+
+<tr class="break-row">
+<td colspan="5">☕ Coffee Break &amp; Participant Poster Presentations · 10:30 – 11:00</td>
+</tr>
+
+<tr>
+<td>Day 4 — Thu, July 09, 2026</td>
+<td class="time-slot">11:00 – 12:00</td>
+<td>
+<span class="speaker-name">Prof. Ouassim KARRAKCHOU</span>
+<span class="speaker-affil">UIR, Morocco</span>
+</td>
+<td><span class="badge badge-talk">Invited Talk</span></td>
+<td class="title-cell">Dynamic Neural Network Approaches for a Sustainable Edge AI</td>
+</tr>
+
+<tr>
+<td>Day 4 — Thu, July 09, 2026</td>
+<td class="time-slot">12:00 – 13:00</td>
+<td>
+<span class="speaker-name">Prof. Houda BENBRAHIM</span>
+<span class="speaker-affil">ENSIAS / UM5R, Morocco</span>
+</td>
+<td><span class="badge badge-talk">Invited Talk</span></td>
+<td class="title-cell">Graphs Are Not Dead: How GNNs and LLMs Together Are Redefining Multilingual Sentiment</td>
+</tr>
+
+<tr class="break-row">
+<td colspan="5">🍽 Lunch Break · 13:00 – 14:00</td>
+</tr>
+
+<tr>
+<td>Day 4 — Thu, July 09, 2026</td>
+<td class="time-slot">14:00 – 15:00</td>
+<td>
+<span class="speaker-name">Prof. Hakim HAFIDI</span>
+<span class="speaker-affil">UIR, Morocco</span>
+</td>
+<td><span class="badge badge-talk">Invited Talk</span></td>
+<td class="title-cell">Less Data, More Geometry: Symmetry, Inductive Biases, and the Case for Frugal Deep Learning</td>
+</tr>
+
+<tr>
+<td>Day 4 — Thu, July 09, 2026</td>
+<td class="time-slot">15:00 – 16:00</td>
+<td>
+<span class="speaker-name">Prof. Aniss MOUMEN</span>
+<span class="speaker-affil">ENSAK / UIT, Morocco</span>
+</td>
+<td><span class="badge badge-handson">Hands-on Lab</span></td>
+<td class="title-cell">The Augmented Researcher: Transforming Scientific Inquiry through Generative AI, RAG Systems, and Open-Source LLMs</td>
+</tr>
+
+<tr class="break-row">
+<td colspan="5">☕ Coffee Break &amp; Participant Poster Presentations · 16:00 – 16:30</td>
+</tr>
+
+<tr>
+<td>Day 4 — Thu, July 09, 2026</td>
+<td class="time-slot">16:30 – 18:30</td>
+<td>
+<span class="speaker-name">Ms. Tiffany SOUTERRE &amp; Mr. Olivier LEPLUS</span>
+<span class="speaker-affil">AWS, France</span>
+</td>
+<td><span class="badge badge-aws">AWS Hands-on</span></td>
+<td class="title-cell">Build Your Own RPG Game Master Using Agentic AI and the Strands Agents SDK</td>
+</tr>
+
+<tr class="break-row">
+<td colspan="5">🔚 End of Day · 18:30</td>
+</tr>
+
+</tbody>
+</table>
+</div>
+<!-- ========================================================= -->
+<!-- DAY 5 -->
+<!-- ========================================================= -->
+
+<div class="page-break"></div>
+
+<h3 class="day-title">Day 5 — Friday, July 10, 2026</h3>
+
+<div class="detail-wrap">
+<table class="detail">
+
+<thead>
+<tr>
+<th style="width:100px;">Date</th>
+<th style="width:100px;">Time Slot</th>
+<th style="width:200px;">Speaker &amp; Affiliation</th>
+<th style="width:110px;">Session Type</th>
+<th>Session Title</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>Day 5 — Fri, July 10, 2026</td>
+<td class="time-slot">09:00 – 10:30</td>
+<td>
+<span class="speaker-name">Mr. Mohammed ACHOUR</span>
+<span class="speaker-affil">Cisco, Morocco</span>
+</td>
+<td><span class="badge badge-talk">Invited Talk</span></td>
+<td class="title-cell">The Cisco AI Story: Scaling and Securing the Intelligent Era</td>
+</tr>
+
+<tr class="break-row">
+<td colspan="5">☕ Coffee Break &amp; Participant Poster Presentations · 10:30 – 11:00</td>
+</tr>
+
+<tr>
+<td>Day 5 — Fri, July 10, 2026</td>
+<td class="time-slot">11:00 – 12:30</td>
+<td>
+<span class="speaker-name">Prof. Aissam BERRAHOU</span>
+<span class="speaker-affil">ENSIAS / UM5R, Morocco</span>
+</td>
+<td><span class="badge badge-handson">Hands-on Lab</span></td>
+<td class="title-cell">Edge AI for Computer Vision: Fundamentals, Hardware-Aware Optimization, and Experimental Validation on Resource-Constrained Systems</td>
+</tr>
+
+<tr>
+<td>Day 5 — Fri, July 10, 2026</td>
+<td class="time-slot">12:30 – 13:00</td>
+<td>
+<span class="speaker-name">Dr. Karim BENZIDANE</span>
+<span class="speaker-affil">AWS, France</span>
+</td>
+<td><span class="badge badge-aws">AWS Session</span></td>
+<td class="title-cell">Cracking the AWS Certification Code: A Trainer's Playbook for Exam Success</td>
+</tr>
+
+<tr>
+<td>Day 5 — Fri, July 10, 2026</td>
+<td class="time-slot">13:00 – 13:30</td>
+<td>
+<span class="speaker-name">—</span>
+<span class="speaker-affil">All participants</span>
+</td>
+<td><span class="badge badge-closing">Closing Session</span></td>
+<td class="title-cell">Participant Feedback &amp; Closing Remarks</td>
+</tr>
+
+<tr class="break-row">
+<td colspan="5">🍽 Lunch · 13:30 – 15:00</td>
+</tr>
+
+<tr>
+<td>Day 5 — Fri, July 10, 2026</td>
+<td class="time-slot">15:00 – 18:30</td>
+<td>
+<span class="speaker-name">—</span>
+<span class="speaker-affil">All participants</span>
+</td>
+<td><span class="badge badge-poster">TBC</span></td>
+<td class="title-cell"><em>To Be Confirmed</em></td>
+</tr>
+
+<tr class="break-row">
+<td colspan="5">🔚 End of Summer School · 18:30</td>
+</tr>
+
+</tbody>
 </table>
 </div>
 
