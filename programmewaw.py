@@ -5,6 +5,16 @@ with open(r"D:\Summer School\Codepythondecoupagepdfsenpdf\banniere.png", "rb") a
     banner = base64.b64encode(f.read()).decode("utf-8")
 
 
+
+with open(r"D:\Summer School\Codepythondecoupagepdfsenpdf\ensias.png", "rb") as f:
+    ensias = base64.b64encode(f.read()).decode("utf-8")
+
+with open(r"D:\Summer School\Codepythondecoupagepdfsenpdf\UIR.png", "rb") as f:
+    uir = base64.b64encode(f.read()).decode("utf-8")
+
+with open(r"D:\Summer School\Codepythondecoupagepdfsenpdf\FLSHR.png", "rb") as f:
+    flshr = base64.b64encode(f.read()).decode("utf-8")
+
 html_content ="""
 <!DOCTYPE html>
 <html lang="en">
@@ -350,6 +360,71 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     font-size:11px;
     color:#666;
     white-space:nowrap;
+}
+.header-container {
+        display: flex;
+        align-items: center; /* Aligne verticalement au centre */
+        gap: 15px;           /* Espace entre le titre et le QR code */
+    }
+
+    .qr-code {
+     width: 140px;
+    height: 140px;
+    object-fit: contain;
+}
+}
+
+.roundtable-speakers{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    column-gap:18px;
+    row-gap:8px;
+}
+
+.roundtable-speakers .speaker-block{
+    margin:0;
+}
+
+.roundtable-speakers .speaker-name{
+    font-size:13px;
+    font-weight:700;
+}
+
+.roundtable-speakers .speaker-affil{
+    font-size:11px;
+    color:#666;
+    font-style:italic;
+}
+.day-page{
+    page-break-inside: avoid;
+    break-inside: avoid-page;
+}
+
+
+.roundtable-speakers{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    column-gap:18px;
+    row-gap:8px;
+}
+
+.roundtable-speakers .speaker-block{
+    margin:0;
+}
+
+.roundtable-speakers .speaker-name{
+    font-size:13px;
+    font-weight:700;
+}
+
+.roundtable-speakers .speaker-affil{
+    font-size:11px;
+    color:#666;
+    font-style:italic;
+}
+
+
+
 }
 </style>
 </head>
@@ -699,13 +774,20 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 
    
 
-   <!-- ========================================================= -->
+<!-- ========================================================= -->
 <!-- DAY 1 -->
 <!-- ========================================================= -->
-
+<div class="day-page">
 <div class="page-break"></div>
 
-<h3 class="day-title">Day 1 — Monday, July 06, 2026</h3>
+<div class="header-container">
+    <h3 class="day-title">
+        Day 1 — Monday, July 06, 2026 — 
+        <a href="https://maps.app.goo.gl/ZE9Bb89zK8g9etP76?g_st=ac"> 📍 at ENSIAS/UM5R</a>
+        
+    </h3>
+    
+</div>
 
 <div class="detail-wrap">
 <table class="detail">
@@ -799,22 +881,38 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     <tr>
       <td style="font-size:14px;color:var(--ink-soft);">Day 1 — Mon, July 06, 2026</td>
       <td class="time-slot">15:00 – 16:00</td>
-      <td>
-        <span class="speaker">Prof. Y. GAHI</span>
-        <span class="affil">ENSAK / UIT, Morocco</span>
+    <td>
 
-        <span class="speaker">Prof. M. BOUTAYEB</span>
-        <span class="affil">University of Lorraine, France</span>
+<div class="roundtable-speakers">
 
-        <span class="speaker">Prof. A. DRISSI EL MALIANI</span>
-        <span class="affil">FSR / UM5R, Morocco</span>
+    <div class="speaker-block">
+        <span class="speaker-name">Prof. Y. GAHI</span>
+        <span class="speaker-affil">ENSAK / UIT, Morocco</span>
+    </div>
 
-        <span class="speaker">Dr. Samson LASAULCE</span>
-        <span class="affil">CRAN, France</span>
+    <div class="speaker-block">
+        <span class="speaker-name">Dr. Samson LASAULCE</span>
+        <span class="speaker-affil">CRAN, France</span>
+    </div>
 
-        <span class="speaker">Prof. Gilles SIMON </span>
-        <span class="affil">University of Lorraine, France</span>
-      </td>
+    <div class="speaker-block">
+        <span class="speaker-name">Prof. M. BOUTAYEB</span>
+        <span class="speaker-affil">University of Lorraine, France</span>
+    </div>
+
+    <div class="speaker-block">
+        <span class="speaker-name">Prof. Gilles SIMON</span>
+        <span class="speaker-affil">University of Lorraine, France</span>
+    </div>
+
+    <div class="speaker-block">
+        <span class="speaker-name">Prof. A. DRISSI EL MALIANI</span>
+        <span class="speaker-affil">FSR / UM5R, Morocco</span>
+    </div>
+
+</div>
+
+</td>
 
       <td>
         <span class="badge badge-round">Round Table</span>
@@ -860,14 +958,22 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
   </tbody>
 </table>
 </div>
+</div>
   
     <!-- ========================================================= -->
 <!-- DAY 2 -->
 <!-- ========================================================= -->
 
 <div class="page-break"></div>
+<div class="header-container">
+    <h3 class="day-title">
+        Day 2 — Tuesday, July 07, 2026 —
+        <a href="https://maps.app.goo.gl/dE7cq1WvKHqExcdeA?g_st=ac"> 📍 at UIR</a>
+         
+    </h3>
 
-<h3 class="day-title">Day 2 — Tuesday, July 07, 2026</h3>
+
+</div>
 
 <div class="detail-wrap">
 <table class="detail">
@@ -1003,7 +1109,10 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 
 <div class="page-break"></div>
 
-<h3 class="day-title">Day 3 — Wednesday, July 08, 2026</h3>
+<h3 class="day-title">Day 3 — Wednesday, July 08, 2026
+  <a href="https://maps.app.goo.gl/Y7WbFQziREFenjiZ8?g_st=ac"> 📍 at FLSHR/UM5R</a>
+    
+  </h3>
 
 <div class="detail-wrap">
 <table class="detail">
@@ -1061,7 +1170,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 </tr>
 
 <tr>
-<td>Day 3 — Wed, July 08, 2026</td>
+<td style="font-size:14px;color:var(--ink-soft);">Day 3 — Wed, July 08, 2026</td>
 <td class="time-slot">14:00 – 15:00</td>
 <td>
 <span class="speaker-name">Prof. Soufiane AZOUAGHE &amp; Mekki EL AMIRI</span>
@@ -1072,7 +1181,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 </tr>
 
 <tr>
-<td>Day 3 — Wed, July 08, 2026</td>
+<td style="font-size:14px;color:var(--ink-soft);">Day 3 — Wed, July 08, 2026</td>
 <td class="time-slot">15:00 – 16:00</td>
 <td>
 <span class="speaker-name">Prof. Ibrahim RAHHAL</span>
@@ -1087,7 +1196,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 </tr>
 
 <tr>
-<td>Day 3 — Wed, July 08, 2026</td>
+<td style="font-size:14px;color:var(--ink-soft);">Day 3 — Wed, July 08, 2026</td>
 <td class="time-slot">16:30 – 18:00</td>
 <td>
 <span class="speaker-name">Dr. Ayoub FARKANE</span>
@@ -1114,8 +1223,10 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 
 <div class="page-break"></div>
 
-<h3 class="day-title">Day 4 — Thursday, July 09, 2026</h3>
-
+<h3 class="day-title">Day 4 — Thursday, July 09, 2026
+ <a href="https://maps.app.goo.gl/ZE9Bb89zK8g9etP76?g_st=ac"> 📍 at ENSIAS/UM5R</a> 
+   
+ </h3>
 <div class="detail-wrap">
 <table class="detail">
 
@@ -1132,7 +1243,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 <tbody>
 
 <tr>
-<td>Day 4 — Thu, July 09, 2026</td>
+<td style="font-size:14px;color:var(--ink-soft);">Day 4 — Thu, July 09, 2026</td>
 <td class="time-slot">09:00 – 10:00</td>
 <td><span class="speaker-name">Prof. Luc DE BRABANDERE</span></td>
 <td><span class="badge badge-talk">Invited Talk</span></td>
@@ -1144,7 +1255,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 </tr>
 
 <tr>
-<td>Day 4 — Thu, July 09, 2026</td>
+<td style="font-size:14px;color:var(--ink-soft);">Day 4 — Thu, July 09, 2026</td>
 <td class="time-slot">11:00 – 12:00</td>
 <td>
 <span class="speaker-name">Prof. Ouassim KARRAKCHOU</span>
@@ -1155,7 +1266,9 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 </tr>
 
 <tr>
-<td>Day 4 — Thu, July 09, 2026</td>
+<td style="font-size:14px;color:var(--ink-soft);font-weight:400;">
+    Day 4 — Thu, July 09, 2026
+</td>
 <td class="time-slot">12:00 – 13:00</td>
 <td>
 <span class="speaker-name">Prof. Houda BENBRAHIM</span>
@@ -1170,7 +1283,9 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 </tr>
 
 <tr>
-<td>Day 4 — Thu, July 09, 2026</td>
+<td style="font-size:14px;color:var(--ink-soft);font-weight:400;">
+    Day 4 — Thu, July 09, 2026
+</td>
 <td class="time-slot">14:00 – 15:00</td>
 <td>
 <span class="speaker-name">Prof. Hakim HAFIDI</span>
@@ -1181,7 +1296,9 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 </tr>
 
 <tr>
-<td>Day 4 — Thu, July 09, 2026</td>
+<td style="font-size:14px;color:var(--ink-soft);font-weight:400;">
+    Day 4 — Thu, July 09, 2026
+</td>
 <td class="time-slot">15:00 – 16:00</td>
 <td>
 <span class="speaker-name">Prof. Aniss MOUMEN</span>
@@ -1196,7 +1313,9 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 </tr>
 
 <tr>
-<td>Day 4 — Thu, July 09, 2026</td>
+<td style="font-size:14px;color:var(--ink-soft);font-weight:400;">
+    Day 4 — Thu, July 09, 2026
+</td>
 <td class="time-slot">16:30 – 18:30</td>
 <td>
 <span class="speaker-name">Ms. Tiffany SOUTERRE &amp; Mr. Olivier LEPLUS</span>
@@ -1219,7 +1338,10 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 
 <div class="page-break"></div>
 
-<h3 class="day-title">Day 5 — Friday, July 10, 2026</h3>
+<h3 class="day-title">Day 5 — Friday, July 10, 2026
+ <a href="https://maps.app.goo.gl/ZE9Bb89zK8g9etP76?g_st=ac"> 📍 at ENSIAS/UM5R</a>
+  
+</h3>
 
 <div class="detail-wrap">
 <table class="detail">
@@ -1237,7 +1359,9 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 <tbody>
 
 <tr>
-<td>Day 5 — Fri, July 10, 2026</td>
+<td style="font-size:14px;color:var(--ink-soft);font-weight:400;">
+    Day 5 — Fri, July 10, 2026
+</td>
 <td class="time-slot">09:00 – 10:30</td>
 <td>
 <span class="speaker-name">Mr. Mohammed ACHOUR</span>
@@ -1252,7 +1376,9 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 </tr>
 
 <tr>
-<td>Day 5 — Fri, July 10, 2026</td>
+<td style="font-size:14px;color:var(--ink-soft);font-weight:400;">
+    Day 5 — Fri, July 10, 2026
+</td>
 <td class="time-slot">11:00 – 12:30</td>
 <td>
 <span class="speaker-name">Prof. Aissam BERRAHOU</span>
@@ -1263,7 +1389,9 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 </tr>
 
 <tr>
-<td>Day 5 — Fri, July 10, 2026</td>
+<td style="font-size:14px;color:var(--ink-soft);font-weight:400;">
+    Day 5 — Fri, July 10, 2026
+</td>
 <td class="time-slot">12:30 – 13:00</td>
 <td>
 <span class="speaker-name">Dr. Karim BENZIDANE</span>
@@ -1274,7 +1402,9 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 </tr>
 
 <tr>
-<td>Day 5 — Fri, July 10, 2026</td>
+<td style="font-size:14px;color:var(--ink-soft);font-weight:400;">
+    Day 5 — Fri, July 10, 2026
+</td>
 <td class="time-slot">13:00 – 13:30</td>
 <td>
 <span class="speaker-name">—</span>
@@ -1289,7 +1419,9 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 </tr>
 
 <tr>
-<td>Day 5 — Fri, July 10, 2026</td>
+<td style="font-size:14px;color:var(--ink-soft);font-weight:400;">
+    Day 5 — Fri, July 10, 2026
+</td>
 <td class="time-slot">15:00 – 18:30</td>
 <td>
 <span class="speaker-name">—</span>
@@ -1316,7 +1448,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 </body>
 </html>"""
 
-output_pdf = r"C:\Users\GASMI MANAL\Desktop\Summer_School_Tasks\HTML Program\programme_Intervenant.pdf"
+output_pdf = r"C:\Users\GASMI MANAL\Desktop\Summer_School_Tasks\HTML Program\Summer_School_AI_2026_Program_Version_Public.pdf"
 
 with sync_playwright() as p:
     browser = p.chromium.launch()
@@ -1326,6 +1458,9 @@ with sync_playwright() as p:
     )
 
     html_content = html_content.replace("{banner}", banner)
+    html_content = html_content.replace("{ensias}", ensias)
+    html_content = html_content.replace("{uir}", uir)
+    html_content = html_content.replace("{flshr}", flshr)
 
     page.set_content(
         html_content,
