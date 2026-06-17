@@ -329,6 +329,28 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
     font-size:24px;
     font-weight:700;
 }
+
+
+
+
+.speaker-block{
+    display:block;
+    margin-bottom:6px;
+    break-inside:avoid;
+    page-break-inside:avoid;
+}
+
+.speaker-name{
+    font-weight:700;
+    white-space:nowrap;
+}
+
+.speaker-affil{
+    display:block;
+    font-size:11px;
+    color:#666;
+    white-space:nowrap;
+}
 </style>
 </head>
 <body>
@@ -584,7 +606,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
         <span class="affil">FSR / UM5R, Morocco</span>
         <span class="speaker">Dr. Samson LASAULCE</span>
         <span class="affil">CRAN, France</span>
-        <span class="speaker">Prof. Gilles SIMON</span>
+        <span class="speaker">Prof. Gilles SIMON </span>
         <span class="affil">University of Lorraine, France</span>
       </td>
       <td class="c-d2">
@@ -671,13 +693,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 <div class="detail-wrap">
 <table class="detail">
   <thead>
-    <tr>
-      <th style="width:100px;">Date</th>
-      <th style="width:100px;">Time Slot</th>
-      <th style="width:200px;">Speaker &amp; Affiliation</th>
-      <th style="width:110px;">Session Type</th>
-      <th>Session Title</th>
-    </tr>
+   
   </thead>
   <tbody>
 
@@ -796,7 +812,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
         <span class="speaker">Dr. Samson LASAULCE</span>
         <span class="affil">CRAN, France</span>
 
-        <span class="speaker">Prof. Gilles SIMON</span>
+        <span class="speaker">Prof. Gilles SIMON </span>
         <span class="affil">University of Lorraine, France</span>
       </td>
 
@@ -1078,10 +1094,11 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 <span class="speaker-affil">Université de Lorraine, France · UIR, Morocco</span>
 </td>
 <td><span class="badge badge-handson">Hands-on Lab</span></td>
-<td class="title-cell">Hands-On Physics-Informed Neural Networks: From Theory to Real-World Applications in Healthcare and Energy</td>
+<td class="title-cell">Hands-On Physics-Informed Neural Networks: From Theory to Real-World Applications in Healthcare and Energy
 <div style="margin-top:8px;font-style:italic;font-weight:600;color:#6a5acd;">
 🔚 End of Day · 18:30
 </div>
+</td>
 </tr>
 
 
