@@ -1095,12 +1095,15 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 </td>
 <td><span class="badge badge-handson">Hands-on Lab</span></td>
 <td class="title-cell">Hands-On Physics-Informed Neural Networks: From Theory to Real-World Applications in Healthcare and Energy
-<div style="margin-top:8px;font-style:italic;font-weight:600;color:#6a5acd;">
-🔚 End of Day · 18:30
-</div>
+
 </td>
 </tr>
 
+    <tr class="break-row">
+      <td colspan="5">
+        🔚 End of Day · 18:30
+      </td>
+    </tr>
 
 </tbody>
 </table>
