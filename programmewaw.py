@@ -424,6 +424,64 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 }
 
 
+.compact-day table.detail td{
+    padding:7px 8px;
+    font-size:13px;
+    line-height:1.15;
+}
+
+.compact-day table.detail th{
+    padding:8px;
+    font-size:12px;
+}
+
+.compact-day .break-row td{
+    padding:4px;
+}
+
+.compact-day .badge{
+    font-size:10px;
+    padding:2px 5px;
+}
+
+.compact-day .speaker-name{
+    font-size:12px;
+}
+
+.compact-day .speaker-affil{
+    font-size:10px;
+}
+
+.compact-day .title-cell{
+    font-size:12px;
+    line-height:1.2;
+}
+
+
+
+.end-day-row td{
+    text-align:center;
+    font-weight:700;
+    font-style:italic;
+    font-size:14px;
+    color:#555;
+    background:#fafafa;
+
+    padding:12px 0;
+
+    border-top:2px solid #d8d8d8;
+    border-bottom:2px solid #d8d8d8;
+}
+.end-day-row{
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.detail tbody tr{
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
 
 }
 </style>
@@ -613,7 +671,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
       </td>
       <td class="c-aws">
         <span class="tag" style="color:var(--aws);">AWS Certifications · 12H30–13H00</span>
-        <span class="speaker">Dr. Karim BENZIDANE</span>
+        <span class="speaker">Mr. Karim BENZIDANE</span>
         <span class="affil">AWS, France</span>
       </td>
     </tr>
@@ -765,201 +823,233 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
      SECTION 2 — DETAILED PROGRAMME
 ═══════════════════════════════════════════════ -->
 
-<div class="detail-wrap">
-<table class="detail">
-  <thead>
-   
-  </thead>
-  <tbody>
-
-   
-
-<!-- ========================================================= -->
-<!-- DAY 1 -->
-<!-- ========================================================= -->
-<div class="day-page">
 <div class="page-break"></div>
 
 <div class="header-container">
     <h3 class="day-title">
-        Day 1 — Monday, July 06, 2026 — 
-        <a href="https://maps.app.goo.gl/ZE9Bb89zK8g9etP76?g_st=ac"> 📍 at ENSIAS/UM5R</a>
-        
+        Day 1 — Monday, July 06, 2026 —
+        <a href="https://maps.app.goo.gl/ZE9Bb89zK8g9etP76?g_st=ac">
+            📍 at ENSIAS / UM5R
+        </a>
     </h3>
-    
 </div>
 
 <div class="detail-wrap">
+
 <table class="detail">
-  <thead>
-    <tr>
-      <th style="width:100px;">Date</th>
-      <th style="width:100px;">Time Slot</th>
-      <th style="width:200px;">Speaker &amp; Affiliation</th>
-      <th style="width:110px;">Session Type</th>
-      <th>Session Title</th>
-    </tr>
-  </thead>
 
-  <tbody>
+<thead>
+<tr>
+    <th style="width:100px;">Date</th>
+    <th style="width:100px;">Time Slot</th>
+    <th style="width:200px;">Speaker &amp; Affiliation</th>
+    <th style="width:110px;">Session Type</th>
+    <th>Session Title</th>
+</tr>
+</thead>
 
-    <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Day 1 — Mon, July 06, 2026</td>
-      <td class="time-slot">08:30 – 09:00</td>
-      <td>
+<tbody>
+
+<tr>
+    <td style="font-size:14px;color:var(--ink-soft);">
+        Day 1 — Mon, July 06, 2026
+    </td>
+
+    <td class="time-slot">
+        08:30 – 09:00
+    </td>
+
+    <td>
         <span class="speaker-name">—</span>
         <span class="speaker-affil">All participants</span>
-      </td>
-      <td><span class="badge badge-opening">🎟 Registration</span></td>
-      <td class="title-cell">Participant Registration &amp; Welcome</td>
-    </tr>
+    </td>
 
-    <tr class="break-row">
-      <td colspan="5">☕ Coffee Break</td>
-    </tr>
+    <td>
+        <span class="badge badge-registration">Registration</span>
+    </td>
 
-    <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Day 1 — Mon, July 06, 2026</td>
-      <td class="time-slot">09:00 – 10:30</td>
-      <td>
+    <td class="title-cell">
+        Participant Registration &amp; Welcome
+    </td>
+</tr>
+
+<tr class="break-row">
+    <td colspan="5">
+        ☕ Coffee Break
+    </td>
+</tr>
+
+<tr>
+    <td style="font-size:14px;color:var(--ink-soft);">
+        Day 1 — Mon, July 06, 2026
+    </td>
+
+    <td class="time-slot">
+        09:00 – 10:30
+    </td>
+
+    <td>
         <span class="speaker-name">—</span>
-        <span class="speaker-affil">Organising Committee</span>
-      </td>
-      <td><span class="badge badge-opening">Opening</span></td>
-      <td class="title-cell">
+        <span class="speaker-affil">Organizing Committee</span>
+    </td>
+
+    <td>
+        <span class="badge badge-opening">Opening</span>
+    </td>
+
+    <td class="title-cell">
         Opening Ceremony — Official Speeches &amp; Partners' Words
-      </td>
-    </tr>
+    </td>
+</tr>
 
-    <tr class="break-row">
-      <td colspan="5">
+<tr class="break-row">
+    <td colspan="5">
         ☕ Coffee Break &amp; Participant Poster Presentations · 10:30 – 11:00
-      </td>
-    </tr>
+    </td>
+</tr>
 
-    <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Day 1 — Mon, July 06, 2026</td>
-      <td class="time-slot">11:00 – 12:00</td>
-      <td>
+<tr>
+    <td style="font-size:14px;color:var(--ink-soft);">
+        Day 1 — Mon, July 06, 2026
+    </td>
+
+    <td class="time-slot">
+        11:00 – 12:00
+    </td>
+
+    <td>
         <span class="speaker-name">—</span>
         <span class="speaker-affil">TBC</span>
-      </td>
-      <td><span class="badge badge-talk">Invited Talk</span></td>
-      <td class="title-cell"><em>Session to be confirmed</em></td>
-    </tr>
+    </td>
 
-    <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Day 1 — Mon, July 06, 2026</td>
-      <td class="time-slot">12:00 – 13:00</td>
-      <td>
+    <td>
+        <span class="badge badge-talk">Invited Talk</span>
+    </td>
+
+    <td class="title-cell">
+        Session to be confirmed
+    </td>
+</tr>
+
+<tr>
+    <td style="font-size:14px;color:var(--ink-soft);">
+        Day 1 — Mon, July 06, 2026
+    </td>
+
+    <td class="time-slot">
+        12:00 – 13:00
+    </td>
+
+    <td>
         <span class="speaker-name">Prof. Fabrice KORDON</span>
         <span class="speaker-affil">Sorbonne Université (SU), France</span>
-      </td>
-      <td><span class="badge badge-talk">Invited Talk</span></td>
-      <td class="title-cell">
-        Cybersecurity, the massive surge of AI
-      </td>
-    </tr>
+    </td>
 
-    <tr class="break-row">
-      <td colspan="5">🍽 Lunch Break · 13:00 – 14:00</td>
-    </tr>
-
-    <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Day 1 — Mon, July 06, 2026</td>
-      <td class="time-slot">14:00 – 15:00</td>
-      <td>
-        <span class="speaker-name">Prof. Mohamed ESSAAIDI</span>
-        <span class="speaker-affil">IEEE | ENSIAS / UM5R, Morocco</span>
-      </td>
-      <td><span class="badge badge-talk">Invited Talk</span></td>
-      <td class="title-cell">
-        Leveraging AI for the acceleration of the 2030 UN Agenda for Sustainable Development
-      </td>
-    </tr>
-
-    <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Day 1 — Mon, July 06, 2026</td>
-      <td class="time-slot">15:00 – 16:00</td>
     <td>
+        <span class="badge badge-talk">Invited Talk</span>
+    </td>
 
-<div class="roundtable-speakers">
+    <td class="title-cell">
+        Cybersecurity, the Massive Surge of AI
+    </td>
+</tr>
 
-    <div class="speaker-block">
-        <span class="speaker-name">Prof. Y. GAHI</span>
-        <span class="speaker-affil">ENSAK / UIT, Morocco</span>
-    </div>
+<tr class="break-row">
+    <td colspan="5">
+        🍽 Lunch Break · 13:00 – 14:00
+    </td>
+</tr>
 
-    <div class="speaker-block">
-        <span class="speaker-name">Dr. Samson LASAULCE</span>
-        <span class="speaker-affil">CRAN, France</span>
-    </div>
+<tr>
+    <td style="font-size:14px;color:var(--ink-soft);">
+        Day 1 — Mon, July 06, 2026
+    </td>
 
-    <div class="speaker-block">
-        <span class="speaker-name">Prof. M. BOUTAYEB</span>
-        <span class="speaker-affil">University of Lorraine, France</span>
-    </div>
+    <td class="time-slot">
+        14:00 – 15:00
+    </td>
 
-    <div class="speaker-block">
-        <span class="speaker-name">Prof. Gilles SIMON</span>
-        <span class="speaker-affil">University of Lorraine, France</span>
-    </div>
+    <td>
+        <span class="speaker-name">Prof. Mohamed ESSAAIDI</span>
+        <span class="speaker-affil">IEEE / ENSIAS / UM5R, Morocco</span>
+    </td>
 
-    <div class="speaker-block">
-        <span class="speaker-name">Prof. A. DRISSI EL MALIANI</span>
-        <span class="speaker-affil">FSR / UM5R, Morocco</span>
-    </div>
+    <td>
+        <span class="badge badge-talk">Invited Talk</span>
+    </td>
 
-</div>
+    <td class="title-cell">
+        Leveraging AI for the Acceleration of the 2030 UN Agenda for Sustainable Development
+    </td>
+</tr>
 
-</td>
+<tr>
+    <td style="font-size:14px;color:var(--ink-soft);">
+        Day 1 — Mon, July 06, 2026
+    </td>
 
-      <td>
-        <span class="badge badge-round">Round Table</span>
-      </td>
+    <td class="time-slot">
+        15:00 – 16:00
+    </td>
 
-      <td class="title-cell">
-        When Data Fails the Machine: Industrial AI under Constraints of Scarcity,
-        Incompleteness, and Bias
-      </td>
-    </tr>
+    <td>
+        <span class="speaker-name">Prof. Houda BENBRAHIM</span>
+        <span class="speaker-affil">ENSIAS / UM5R, Morocco</span>
+    </td>
 
-    <tr class="break-row">
-      <td colspan="5">
+    <td>
+        <span class="badge badge-talk">Invited Talk</span>
+    </td>
+
+    <td class="title-cell">
+        Session Title
+    </td>
+</tr>
+
+<tr class="break-row">
+    <td colspan="5">
         ☕ Coffee Break &amp; Participant Poster Presentations · 16:00 – 16:30
-      </td>
-    </tr>
+    </td>
+</tr>
 
-    <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Day 1 — Mon, July 06, 2026</td>
-      <td class="time-slot">16:30 – 18:00</td>
-      <td>
-        <span class="speaker-name">Dr. Mohamed IMAM</span>
-        <span class="speaker-affil">
-          University of Waterloo &amp; LoopX Canada · ENSIAS, UM5R, Morocco
-        </span>
-      </td>
+<tr>
+    <td style="font-size:14px;color:var(--ink-soft);">
+        Day 1 — Mon, July 06, 2026
+    </td>
 
-      <td>
+    <td class="time-slot">
+        16:30 – 18:00
+    </td>
+
+    <td>
+        <span class="speaker-name">Prof. Simon ...</span>
+        <span class="speaker-affil">Affiliation</span>
+    </td>
+
+    <td>
         <span class="badge badge-handson">Hands-on Lab</span>
-      </td>
+    </td>
 
-      <td class="title-cell">
-        Deploying Real-Time Vision Systems for Mining Safety on Edge AI
-      </td>
-    </tr>
-
-    <tr class="break-row">
-      <td colspan="5">
+    <td class="title-cell">
+        Session Title
+    </td>
+</tr>
+<tr class="end-day-row">
+    <td colspan="5">
         🔚 End of Day · 18:30
-      </td>
-    </tr>
+    </td>
+</tr>
+</tr>
 
-  </tbody>
+</tbody>
+
 </table>
+
 </div>
-</div>
-  
+
+   
+
+
     <!-- ========================================================= -->
 <!-- DAY 2 -->
 <!-- ========================================================= -->
@@ -978,7 +1068,13 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 <div class="detail-wrap">
 <table class="detail">
   <thead>
-    
+    <tr>
+<th style="width:100px;">Date</th>
+<th style="width:100px;">Time Slot</th>
+<th style="width:200px;">Speaker &amp; Affiliation</th>
+<th style="width:110px;">Session Type</th>
+<th>Session Title</th>
+</tr>
   </thead>
 
   <tbody>
@@ -1318,7 +1414,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 </td>
 <td class="time-slot">16:30 – 18:30</td>
 <td>
-<span class="speaker-name">Ms. Tiffany SOUTERRE &amp; Mr. Olivier LEPLUS</span>
+<span class="speaker-name">Dr. Tiffany SOUTERRE &amp; Mr. Olivier LEPLUS</span>
 <span class="speaker-affil">AWS, France</span>
 </td>
 <td><span class="badge badge-aws">AWS Hands-on</span></td>
@@ -1394,7 +1490,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):nth-child(even) td { backgro
 </td>
 <td class="time-slot">12:30 – 13:00</td>
 <td>
-<span class="speaker-name">Dr. Karim BENZIDANE</span>
+<span class="speaker-name">Mr. Karim BENZIDANE</span>
 <span class="speaker-affil">AWS, France</span>
 </td>
 <td><span class="badge badge-aws">AWS Session</span></td>
