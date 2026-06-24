@@ -568,7 +568,10 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
       </td>
       <td class="c-aws">
         <span class="tag" style="color:var(--aws);">AWS Certifications · 12H30–13H00</span>
-        <span class="speaker">Mr. Karim BENZIDANE</span>
+        <span class="speaker-name">
+  Mr. Karim BENZIDANE
+  <span style="font-size: 0.75em; color: #999; font-style: italic;">(Online)</span>
+</span>
         <span class="affil">AWS, France</span>
       </td>
     </tr>
@@ -605,7 +608,10 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
       </td>
       <td class="c-d2">
         <span class="tag" style="color:var(--d2);">Invited Talk · 14H00–15H00</span>
-        <span class="speaker">Prof. Mohammed KHALIL</span>
+        <span class="speaker-name">
+  Prof. Mohammed KHALIL
+  <span style="font-size: 0.75em; color: #999; font-style: italic;">(Online)</span>
+</span>
         <span class="affil">FSTM, UH2C, Morocco</span>
         <div style="margin-top:8px;padding-top:6px;border-top:1px solid #D8B4FE;">
           <span style="color:var(--violet);font-size:11px;font-weight:700;">Parallel Session — My Thesis in 180s</span>
@@ -687,7 +693,10 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
       <td class="time-cell">16:30<br>18:00</td>
       <td class="c-handson">
         <span class="tag" style="color:var(--amber);">Hands-on · 16H30–18H00</span>
-        <span class="speaker">Dr. Mohamed IMAM</span>
+        <span class="speaker">
+  Dr. Mohamed IMAM
+  <span style="font-size: 0.75em; color: #999; font-style: italic;">(Online)</span>
+</span>
         <span class="affil">University of Waterloo &amp; LoopX Canada · ENSIAS, UM5R, Morocco</span>
       </td>
       <td class="c-handson">
@@ -705,7 +714,10 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
       </td>
       <td class="c-aws" style="vertical-align:middle;text-align:center;">
         <span class="tag" style="color:var(--aws);">Invited Talk &amp; Hands-on AWS · 16:30–18:30</span>
-        <span class="speaker">Ms. Tiffany SOUTERRE<br>Mr. Olivier LEPLUS</span>
+        <span class="speaker">
+  Ms. Tiffany SOUTERRE<br>
+  Mr. Olivier LEPLUS <span style="font-size: 0.75em; color: #999; font-style: italic;">(Online)</span>
+</span>
         <span class="affil">AWS, France</span>
       </td>
     </tr>
@@ -870,7 +882,10 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
       <td style="font-size:14px;color:var(--ink-soft);">Day 1 — Mon, July 06, 2026</td>
       <td class="time-slot">16:30 – 18:00</td>
       <td>
-        <span class="speaker-name">Dr. Mohamed IMAM</span>
+       <span class="speaker">
+  Dr. Mohamed IMAM
+  <span style="font-size: 0.75em; color: #999; font-style: italic;">(Online)</span>
+</span>
         <span class="speaker-affil">University of Waterloo &amp; LoopX Canada · ENSIAS, UM5R, Morocco</span>
       </td>
       <td><span class="badge badge-handson">Hands-on Lab</span></td>
@@ -960,7 +975,10 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
       <td style="font-size:14px;color:var(--ink-soft);">Day 2 — Tue, July 07, 2026</td>
       <td class="time-slot">14:00 – 15:00</td>
       <td>
-        <span class="speaker-name">Prof. Mohammed KHALIL</span>
+        <span class="speaker-name">
+  Prof. Mohammed KHALIL
+  <span style="font-size: 0.75em; color: #999; font-style: italic;">(Online)</span>
+</span>
         <span class="speaker-affil">FSTM, UH2C, Morocco</span>
       </td>
       <td>
@@ -1229,7 +1247,10 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
       <td style="font-size:14px;color:var(--ink-soft);">Day 4 — Thu, July 09, 2026</td>
       <td class="time-slot">16:30 – 18:30</td>
       <td>
-        <span class="speaker-name">Dr. Tiffany SOUTERRE &amp; Mr. Olivier LEPLUS</span>
+        <span class="speaker-name">
+  Dr. Tiffany SOUTERRE &amp; Mr. Olivier LEPLUS
+  <span style="font-size: 0.8em; color: #777;">(Online)</span>
+</span>
         <span class="speaker-affil">AWS, France</span>
       </td>
       <td><span class="badge badge-aws">AWS Hands-on</span></td>
@@ -1302,7 +1323,10 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
       <td style="font-size:14px;color:var(--ink-soft);">Day 5 — Fri, July 10, 2026</td>
       <td class="time-slot">12:30 – 13:00</td>
       <td>
-        <span class="speaker-name">Mr. Karim BENZIDANE</span>
+       <span class="speaker-name">
+  Mr. Karim BENZIDANE
+  <span style="font-size: 0.75em; color: #999; font-style: italic;">(Online)</span>
+</span>
         <span class="speaker-affil">AWS, France</span>
       </td>
       <td><span class="badge badge-aws">AWS Session</span></td>
