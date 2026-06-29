@@ -482,12 +482,11 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
         <span class="speaker">Prof. Kamel SMAILI</span>
         <span class="affil">Université de Lorraine (UL), France</span>
       </td>
-      <td class="c-d4">
+     <td class="c-d4">
         <span class="tag" style="color:var(--d4);">Invited Talk · 9H00–10H00</span>
-         <span class="speaker-name">
-  Prof. Luc DE BRABANDERE
-  <span style="font-size: 0.75em; color: #999; font-style: italic;">(Online)</span>
-</span>
+        <span class="speaker">Prof. Luc DE BRABANDERE</span>
+        <span style="font-size: 0.8em; color: #777;">(Online)</span>
+        <span class="affil">BCG | cartoonbase.com</span>
       </td>
       <td class="c-d5">
         <span class="tag" style="color:var(--d5);">Invited Talk · 9H00–10H30</span>
@@ -1178,17 +1177,19 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
   </thead>
   <tbody>
 
+
     <tr>
       <td style="font-size:14px;color:var(--ink-soft);">Day 4 — Thu, July 09, 2026</td>
       <td class="time-slot">09:00 – 10:00</td>
-      
-       <span class="speaker-name">
-  Prof. Luc DE BRABANDERE
-  <span style="font-size: 0.75em; color: #999; font-style: italic;">(Online)</span>
-</span>
+      <td>
+        <span class="speaker-name"> Prof. Luc DE BRABANDERE</span>
+        <span style="font-size: 0.8em; color: #777;">(Online)</span>
+        <span class="speaker-affil">BCG | cartoonbase.com</span>
+      </td>
       <td><span class="badge badge-talk">Invited Talk</span></td>
       <td class="title-cell">The Art of Thinking in a Digital World</td>
     </tr>
+
 
     <!-- MORNING POSTER BREAK — Day 4 -->
     <tr class="poster-break-row">
