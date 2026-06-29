@@ -464,9 +464,41 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
       <td class="c-empty"></td>
     </tr>
 
+  
+
+    <tr>
+      <td class="time-cell">09:00<br>10:30</td>
+      <td class="c-welcome">
+        <span class="tag" style="color:var(--red);">Opening Ceremony</span>
+        <span class="affil">Opening Session and Official Speeches<br>Partners' Words</span>
+      </td>
+      <td class="c-d2">
+        <span class="tag" style="color:var(--d2);">Invited Talk · 9H00–10H30</span>
+        <span class="speaker">Prof. Mohamed CHETOUANI</span>
+        <span class="affil">Sorbonne Université (SU), France</span>
+      </td>
+      <td class="c-d3">
+        <span class="tag" style="color:var(--d3);">Invited Talk · 9H00–10H30</span>
+        <span class="speaker">Prof. Kamel SMAILI</span>
+        <span class="affil">Université de Lorraine (UL), France</span>
+      </td>
+      <td class="c-d4">
+        <span class="tag" style="color:var(--d4);">Invited Talk · 9H00–10H00</span>
+         <span class="speaker-name">
+  Prof. Luc DE BRABANDERE
+  <span style="font-size: 0.75em; color: #999; font-style: italic;">(Online)</span>
+</span>
+      </td>
+      <td class="c-d5">
+        <span class="tag" style="color:var(--d5);">Invited Talk · 9H00–10H30</span>
+        <span class="speaker">Mr. Mohammed ACHOUR</span>
+        <span class="affil">Cisco, Morocco</span>
+      </td>
+    </tr>
+
     <!-- MORNING COFFEE BREAK — each day has its poster theme -->
     <tr>
-      <td class="time-cell" style="font-size:11px;">10:30<br>11:00</td>
+      <td class="time-cell">10:30<br>11:00</td>
       <td class="c-coffee-poster">
         ☕ Coffee Break<br>
         📌 Poster Session — <strong>Responsible &amp; Trustworthy AI</strong>
@@ -488,39 +520,12 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
         📌 Poster Session — <strong>Socio-Technical Systems</strong>
       </td>
     </tr>
-
-    <tr>
-      <td class="time-cell">09:00<br>10:30</td>
-      <td class="c-welcome">
-        <span class="tag" style="color:var(--red);">Opening Ceremony</span>
-        <span class="affil">Opening Session and Official Speeches<br>Partners' Words</span>
-      </td>
-      <td class="c-d2">
-        <span class="tag" style="color:var(--d2);">Invited Talk · 9H00–10H30</span>
-        <span class="speaker">Prof. Mohamed CHETOUANI</span>
-        <span class="affil">Sorbonne Université (SU), France</span>
-      </td>
-      <td class="c-d3">
-        <span class="tag" style="color:var(--d3);">Invited Talk · 9H00–10H30</span>
-        <span class="speaker">Prof. Kamel SMAILI</span>
-        <span class="affil">Université de Lorraine (UL), France</span>
-      </td>
-      <td class="c-d4">
-        <span class="tag" style="color:var(--d4);">Invited Talk · 9H00–10H00</span>
-        <span class="speaker">Prof. Luc De Brabandere</span>
-      </td>
-      <td class="c-d5">
-        <span class="tag" style="color:var(--d5);">Invited Talk · 9H00–10H30</span>
-        <span class="speaker">Mr. Mohammed ACHOUR</span>
-        <span class="affil">Cisco, Morocco</span>
-      </td>
-    </tr>
-
     <tr>
       <td class="time-cell">11:00<br>12:00</td>
-      <td class="c-sponsor">
-        <span class="tag" style="color:var(--gold);">Session to be Confirmed</span>
-        <span class="affil">11H00 – 12:00</span>
+      <td class="c-d1">
+        <span class="tag" style="color:var(--d1);">Invited Talk · 11H00–12H00</span>
+        <span class="speaker">Prof. Fabrice KORDON</span>
+        <span class="affil">Sorbonne Université (SU), France</span>
       </td>
       <td class="c-d2">
         <span class="tag" style="color:var(--d2);">Invited Talk · 11H00–12H00</span>
@@ -548,8 +553,8 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
       <td class="time-cell">12:00<br>13:00</td>
       <td class="c-d1">
         <span class="tag" style="color:var(--d1);">Invited Talk · 12H00–13H00</span>
-        <span class="speaker">Prof. Fabrice KORDON</span>
-        <span class="affil">Sorbonne Université (SU), France</span>
+        <span class="speaker">Prof. Gilles SIMON</span>
+        <span class="affil">University of Lorraine, France</span>
       </td>
       <td class="c-d2">
         <span class="tag" style="color:var(--d2);">Invited Talk · 12H00–13H00</span>
@@ -576,6 +581,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
       </td>
     </tr>
 
+
     <tr>
       <td class="time-cell">13:00<br>14:00</td>
       <td class="c-lunch" colspan="4" style="text-align:center;">
@@ -594,9 +600,10 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
       <td class="c-empty"></td>
       <td class="c-empty"></td>
       <td class="c-sponsor">
-        <span class="speaker">Lunch</span>
-        <span class="affil">13H30 – 15H00</span>
-      </td>
+    <span class="speaker">Lunch</span>
+    <span class="affil">13H30 – 15H00</span>
+    <span class="affil">End of Summer School</span>
+</td>
     </tr>
 
     <tr>
@@ -663,9 +670,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
         <span class="speaker">Prof. Aniss MOUMEN</span>
         <span class="affil">ENSAK / UIT, Morocco</span>
       </td>
-      <td class="c-sport" rowspan="3" style="vertical-align:middle;text-align:center;">
-        <span class="tag" style="color:#0D9488;">To Be Confirmed · 15H00–18H30</span>
-      </td>
+      
     </tr>
 
     <!-- AFTERNOON COFFEE BREAK — each day has its poster theme -->
@@ -803,22 +808,22 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
       <td style="font-size:14px;color:var(--ink-soft);">Day 1 — Mon, July 06, 2026</td>
       <td class="time-slot">11:00 – 12:00</td>
       <td>
-        <span class="speaker-name">—</span>
-        <span class="speaker-affil">TBC</span>
+        <span class="speaker-name">Prof. Fabrice KORDON</span>
+        <span class="speaker-affil">Sorbonne Université (SU), France</span>
       </td>
       <td><span class="badge badge-talk">Invited Talk</span></td>
-      <td class="title-cell"><em>Session to be confirmed</em></td>
+      <td class="title-cell">Cybersecurity, the massive surge of AI</td>
     </tr>
 
     <tr>
       <td style="font-size:14px;color:var(--ink-soft);">Day 1 — Mon, July 06, 2026</td>
       <td class="time-slot">12:00 – 13:00</td>
       <td>
-        <span class="speaker-name">Prof. Fabrice KORDON</span>
-        <span class="speaker-affil">Sorbonne Université (SU), France</span>
+        <span class="speaker-name">Prof. Gilles SIMON</span>
+        <span class="speaker-affil">University of Lorraine, France</span>
       </td>
       <td><span class="badge badge-talk">Invited Talk</span></td>
-      <td class="title-cell">Cybersecurity, the massive surge of AI</td>
+      <td class="title-cell"></td>
     </tr>
 
     <tr class="break-row">
@@ -1176,7 +1181,11 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
     <tr>
       <td style="font-size:14px;color:var(--ink-soft);">Day 4 — Thu, July 09, 2026</td>
       <td class="time-slot">09:00 – 10:00</td>
-      <td><span class="speaker-name">Prof. Luc DE BRABANDERE</span></td>
+      
+       <span class="speaker-name">
+  Prof. Luc DE BRABANDERE
+  <span style="font-size: 0.75em; color: #999; font-style: italic;">(Online)</span>
+</span>
       <td><span class="badge badge-talk">Invited Talk</span></td>
       <td class="title-cell">The Art of Thinking in a Digital World</td>
     </tr>
@@ -1348,19 +1357,10 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
       <td colspan="5">🍽 Lunch · 13:30 – 15:00</td>
     </tr>
 
-    <tr>
-      <td style="font-size:14px;color:var(--ink-soft);">Day 5 — Fri, July 10, 2026</td>
-      <td class="time-slot">15:00 – 18:30</td>
-      <td>
-        <span class="speaker-name">—</span>
-        <span class="speaker-affil">All participants</span>
-      </td>
-      <td><span class="badge badge-poster">TBC</span></td>
-      <td class="title-cell"><em>To Be Confirmed</em></td>
-    </tr>
+    
 
     <tr class="break-row">
-      <td colspan="5">🔚 End of Summer School · 18:30</td>
+      <td colspan="5">🔚 End of Summer School </td>
     </tr>
 
   </tbody>
