@@ -593,7 +593,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
     </tr>
 
     <tr>
-      <td class="time-cell">13:30<br>15:00</td>
+      <td class="time-cell"></td>
       <td class="c-empty"></td>
       <td class="c-empty"></td>
       <td class="c-empty"></td>
