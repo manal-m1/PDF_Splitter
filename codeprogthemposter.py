@@ -822,7 +822,7 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
         <span class="speaker-affil">University of Lorraine, France</span>
       </td>
       <td><span class="badge badge-talk">Invited Talk</span></td>
-      <td class="title-cell"></td>
+      <td class="title-cell">Cluster IA Grand Est ENACT</td>
     </tr>
 
     <tr class="break-row">
