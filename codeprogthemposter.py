@@ -422,31 +422,31 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
         <div style="font-family:'Cormorant Garamond',serif;font-size:20px;opacity:.4;">01</div>
         <div style="font-size:18px;font-weight:600;">Monday 6 July 2026</div>
         <div style="font-size:13px;opacity:.6;font-weight:300;">1st day</div>
-        <div class="venue-badge">ENSIAS</div>
+       <div class="venue-badge">ENSIAS – Grand Amphi</div>
       </th>
       <th class="thead-day d2h">
         <div style="font-family:'Cormorant Garamond',serif;font-size:20px;opacity:.4;">02</div>
         <div style="font-size:18px;font-weight:600;">Tuesday 7 July 2026</div>
         <div style="font-size:13px;opacity:.6;font-weight:300;">2nd day</div>
-        <div class="venue-badge">UIR</div>
+        <div class="venue-badge">UIR – Bâtiment 7, Amphi 14</div>
       </th>
       <th class="thead-day d3h">
         <div style="font-family:'Cormorant Garamond',serif;font-size:20px;opacity:.4;">03</div>
         <div style="font-size:18px;font-weight:600;">Wednesday 8 July 2026</div>
         <div style="font-size:13px;opacity:.6;font-weight:300;">3rd day</div>
-        <div class="venue-badge">FLSHR</div>
+        <div class="venue-badge">FLSHR – Amphi Charif Al Idrissi</div>
       </th>
       <th class="thead-day d4h">
         <div style="font-family:'Cormorant Garamond',serif;font-size:20px;opacity:.4;">04</div>
         <div style="font-size:18px;font-weight:600;">Thursday 9 July 2026</div>
         <div style="font-size:13px;opacity:.6;font-weight:300;">4th day</div>
-        <div class="venue-badge">ENSIAS</div>
+       <div class="venue-badge">ENSIAS – Grand Amphi</div>
       </th>
       <th class="thead-day d5h">
         <div style="font-family:'Cormorant Garamond',serif;font-size:20px;opacity:.4;">05</div>
         <div style="font-size:18px;font-weight:600;">Friday 10 July 2026</div>
         <div style="font-size:13px;opacity:.6;font-weight:300;">Last day</div>
-        <div class="venue-badge">ENSIAS</div>
+       <div class="venue-badge">ENSIAS – Grand Amphi</div>
       </th>
     </tr>
   </thead>
@@ -755,7 +755,9 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
 <div class="header-container">
     <h3 class="day-title">
         Day 1 — Monday, July 06, 2026 —
-        <a href="https://maps.app.goo.gl/ZE9Bb89zK8g9etP76?g_st=ac"> 📍 at ENSIAS/UM5R</a>
+        <a href="https://maps.app.goo.gl/ZE9Bb89zK8g9etP76?g_st=ac">
+    📍 at ENSIAS/UM5R – Grand Amphi
+</a>
     </h3>
 </div>
 
@@ -914,7 +916,9 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
 <div class="header-container">
     <h3 class="day-title">
         Day 2 — Tuesday, July 07, 2026 —
-        <a href="https://maps.app.goo.gl/dE7cq1WvKHqExcdeA?g_st=ac"> 📍 at UIR</a>
+        <a href="https://maps.app.goo.gl/dE7cq1WvKHqExcdeA?g_st=ac">
+    📍 at UIR – Building 7, Amphi 14
+</a>
     </h3>
 </div>
 
@@ -1044,7 +1048,9 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
 <div class="page-break"></div>
 
 <h3 class="day-title">Day 3 — Wednesday, July 08, 2026
-  <a href="https://maps.app.goo.gl/Y7WbFQziREFenjiZ8?g_st=ac"> 📍 at FLSHR/UM5R</a>
+<a href="https://maps.app.goo.gl/Y7WbFQziREFenjiZ8?g_st=ac">
+    📍 at FLSHR/UM5R – Amphi Charif Al Idrissi
+</a>
 </h3>
 
 <div class="detail-wrap">
@@ -1161,7 +1167,9 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
 <div class="page-break"></div>
 
 <h3 class="day-title">Day 4 — Thursday, July 09, 2026
-  <a href="https://maps.app.goo.gl/ZE9Bb89zK8g9etP76?g_st=ac"> 📍 at ENSIAS/UM5R</a>
+  <a href="https://maps.app.goo.gl/ZE9Bb89zK8g9etP76?g_st=ac">
+    📍 at ENSIAS/UM5R – Grand Amphi
+</a>
 </h3>
 
 <div class="detail-wrap">
@@ -1284,7 +1292,9 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
 <div class="page-break"></div>
 
 <h3 class="day-title">Day 5 — Friday, July 10, 2026
-  <a href="https://maps.app.goo.gl/ZE9Bb89zK8g9etP76?g_st=ac"> 📍 at ENSIAS/UM5R</a>
+  <a href="https://maps.app.goo.gl/ZE9Bb89zK8g9etP76?g_st=ac">
+    📍 at ENSIAS/UM5R – Grand Amphi
+</a>
 </h3>
 
 <div class="detail-wrap">
