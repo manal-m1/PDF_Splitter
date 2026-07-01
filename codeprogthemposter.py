@@ -648,8 +648,10 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
         <span class="affil">FSR / UM5R, Morocco</span>
         <span class="speaker">Dr. Samson LASAULCE</span>
         <span class="affil">CRAN, France</span>
-        <span class="speaker">Prof. Gilles SIMON </span>
-        <span class="affil">University of Lorraine, France</span>
+        <span class="speaker">Prof. Zakaria ABOU EL HOUDA </span>
+        <span class="affil">Institut National de la Recherche Scientifique (INRS), Canada</span>
+        <span class="speaker">Prof. Hajar MOUDOUD</span>
+        <span class="affil">Université du Québec en Outaouais (UQO), Canada</span>
       </td>
       <td class="c-d2">
         <span class="tag" style="color:var(--d2);">Invited Talk · 15H00–16H00</span>
@@ -862,8 +864,12 @@ table.detail tbody tr:not(.day-row):not(.break-row):not(.poster-break-row):nth-c
             <span class="speaker-affil">University of Lorraine, France</span>
           </div>
           <div class="speaker-block">
-            <span class="speaker-name">Prof. Gilles SIMON</span>
-            <span class="speaker-affil">University of Lorraine, France</span>
+            <span class="speaker-name">Prof. Zakaria ABOU EL HOUDA</span>
+            <span class="speaker-affil"> Institut National de la Recherche Scientifique (INRS), Canada</span>
+          </div>
+          <div class="speaker-block">
+            <span class="speaker-name">Prof. Hajar MOUDOUD</span>
+            <span class="speaker-affil">Université du Québec en Outaouais (UQO), Canada</span>
           </div>
           <div class="speaker-block">
             <span class="speaker-name">Prof. A. DRISSI EL MALIANI</span>
